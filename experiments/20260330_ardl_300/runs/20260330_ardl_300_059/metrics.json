@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_ardl_300",
+  "trial_id": "20260330_ardl_300_059",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "description": "ARDL(ar_lags=1, distributed_lags=4) trend=c with mortgage_rate, unemployment_rate",
+  "gof_composite": -0.254985108102497,
+  "gof_insample": 0.18759153350831292,
+  "gof_validation_near": -0.45986074604662774,
+  "gof_validation_far": -1.4128506883109693,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 53.19338917623055,
+  "mae": 40.294117501400365,
+  "theil_u": 1.4598607460466277,
+  "directional_accuracy": 0.7844611528822055,
+  "n_params": 12,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 53.19338917623055,
+  "rmse_3yr": 276.76164538456607,
+  "insample_rmse": 5.421578434209732,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

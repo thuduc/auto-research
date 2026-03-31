@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_random_forest_full20_300	Random Forest	True	20260330_random_forest_full20_300_053		0.4012027710819058	0.6791713031428186	0.2448433280384322	-0.0410727665911523	27.51587290052098	119.41435632244784	7	93	Random Forest n_estimators=200 max_depth=None min_samples_leaf=1 lags=[1, 4, 8] with consumer_confidence

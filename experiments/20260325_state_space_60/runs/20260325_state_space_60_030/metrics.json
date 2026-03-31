@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_030",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local linear trend, no_cycle) with mortgage_rate, real_gdp, building_permits",
+  "gof_composite": -0.63994449467619,
+  "gof_insample": -1.787453499117293,
+  "gof_validation_near": 0.16516040937356802,
+  "gof_validation_far": -0.3613187315906201,
+  "gof_diagnostic": 0.7142857142857143,
+  "rmse": 30.41930359739833,
+  "mae": 20.106319935434254,
+  "theil_u": 0.834839590626432,
+  "directional_accuracy": 0.531328320802005,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.41930359739833,
+  "rmse_3yr": 156.147586700273,
+  "insample_rmse": 18.601969822444495,
+  "naive_insample_rmse": 6.6734637289322345
+}

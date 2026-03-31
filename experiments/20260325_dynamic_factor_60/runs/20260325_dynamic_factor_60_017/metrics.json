@@ -1,0 +1,37 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60",
+  "trial_id": "20260325_dynamic_factor_60_017",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=2) with building_permits",
+  "gof_composite": -3.4703010812605877,
+  "gof_insample": -6.598700806623728,
+  "gof_validation_near": -2.048561886584229,
+  "gof_validation_far": -0.8699384331552202,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 111.08137491883697,
+  "mae": 63.524349241982485,
+  "theil_u": 3.048561886584229,
+  "directional_accuracy": 0.49122807017543857,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 111.08137491883697,
+  "rmse_3yr": 214.48788357896808,
+  "insample_rmse": 50.70965422001156,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

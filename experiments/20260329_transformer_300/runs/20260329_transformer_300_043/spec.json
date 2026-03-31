@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20260329_transformer_300",
+  "trial_id": "20260329_transformer_300_043",
+  "model_class": "Transformer",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Transformer lookback=4 model_dim=32 num_heads=4 num_layers=1 feedforward_dim=64 epochs=75 learning_rate=0.01 with mortgage_rate, per_capita_income",
+    "transformer": {
+      "exogenous": [
+        "mortgage_rate",
+        "per_capita_income"
+      ],
+      "lookback": 4,
+      "model_dim": 32,
+      "num_heads": 4,
+      "num_layers": 1,
+      "feedforward_dim": 64,
+      "epochs": 75,
+      "learning_rate": 0.01,
+      "dropout": 0.0
+    }
+  }
+}

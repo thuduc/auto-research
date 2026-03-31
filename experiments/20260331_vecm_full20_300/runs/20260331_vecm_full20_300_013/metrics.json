@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_vecm_full20_300",
+  "trial_id": "20260331_vecm_full20_300_013",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=1) deterministic=ci with housing_inventory",
+  "gof_composite": 0.07057315882086247,
+  "gof_insample": 0.3658622156896263,
+  "gof_validation_near": 0.006528980494388659,
+  "gof_validation_far": -0.8537124708534938,
+  "gof_diagnostic": 0.5,
+  "rmse": 36.199405127494686,
+  "mae": 19.824697083101448,
+  "theil_u": 0.9934710195056113,
+  "directional_accuracy": 0.5839598997493735,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 36.199405127494686,
+  "rmse_3yr": 212.62671411401567,
+  "insample_rmse": 4.2318955027407315,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

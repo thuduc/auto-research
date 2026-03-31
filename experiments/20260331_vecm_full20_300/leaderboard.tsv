@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_vecm_full20_300	VECM	True	20260331_vecm_full20_300_051		0.2408118175534621	0.4961598596101341	0.1323111474412409	-0.4708512970779497	31.616242126535543	168.71132021031735	43	91	VECM(k_ar_diff=4) deterministic=ci with treasury_10y, mortgage_rate

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_ensemble_gb_xgb_full20	Model Ensemble	True	20260331_ensemble_gb_xgb_full20_002		0.6412762330528322	0.964402829832578	0.4144997252795371	0.097379092924198	21.33405125135183	103.53348784117252	22	3	inverse_rmse ensemble of Gradient Boosting, XGBoost

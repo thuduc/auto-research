@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_residual_hybrid_vecm_gb_full20	Residual Hybrid	True	20260331_residual_hybrid_vecm_gb_full20_001		0.5580644138092599	0.995519035332642	0.1972186062940341	0.0499796942663853	29.251189344243308	108.97034956922177	19	1	VECM + Gradient Boosting learned residual correction

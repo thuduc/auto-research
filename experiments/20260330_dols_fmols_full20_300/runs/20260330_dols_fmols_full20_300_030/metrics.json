@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_full20_300",
+  "trial_id": "20260330_dols_fmols_full20_300_030",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "DOLS trend=ct leads=2 lags=2 with fed_funds",
+  "gof_composite": -2.213580397627361,
+  "gof_insample": -4.428359233088351,
+  "gof_validation_near": -1.2893317164741496,
+  "gof_validation_far": -0.03504211941188595,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 83.41707472967958,
+  "mae": 75.58817938820452,
+  "theil_u": 2.2893317164741496,
+  "directional_accuracy": 0.7894736842105263,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 83.41707472967958,
+  "rmse_3yr": 118.72262191710182,
+  "insample_rmse": 36.941310254413715,
+  "naive_insample_rmse": 6.805244212512578,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

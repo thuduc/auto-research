@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_lstm_gru_300",
+  "trial_id": "20260329_lstm_gru_300_026",
+  "model_class": "LSTM / GRU",
+  "champion_eligible": true,
+  "description": "GRU lookback=4 hidden_size=16 num_layers=2 epochs=75 learning_rate=0.01 with mortgage_rate",
+  "gof_composite": -0.21865115055345197,
+  "gof_insample": -0.524743111185723,
+  "gof_validation_near": -0.047139601053756364,
+  "gof_validation_far": -0.28170030473565344,
+  "gof_diagnostic": 0.5,
+  "rmse": 38.15494352563144,
+  "mae": 31.65584337361653,
+  "theil_u": 1.0471396010537564,
+  "directional_accuracy": 0.3533834586466165,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 38.15494352563144,
+  "rmse_3yr": 147.01510000059397,
+  "insample_rmse": 10.175317848437212,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_nbeats_300",
+  "trial_id": "20260329_nbeats_300_015",
+  "model_class": "N-BEATS",
+  "champion_eligible": true,
+  "description": "N-BEATS lookback=8 stack_width=64 n_blocks=2 n_layers=2 epochs=75 learning_rate=0.01 with mortgage_rate",
+  "gof_composite": 0.017236330039076687,
+  "gof_insample": 0.6140630679101929,
+  "gof_validation_near": -0.3750637413825644,
+  "gof_validation_far": -0.8696661398295755,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 50.103614975308176,
+  "mae": 40.10756252034505,
+  "theil_u": 1.3750637413825644,
+  "directional_accuracy": 0.5513784461152882,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 50.103614975308176,
+  "rmse_3yr": 214.45665066878522,
+  "insample_rmse": 2.5755361179567102,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

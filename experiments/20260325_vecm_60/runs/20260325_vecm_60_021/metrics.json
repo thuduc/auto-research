@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_021",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=4) deterministic=ci with term_spread",
+  "gof_composite": -0.0005855019870939365,
+  "gof_insample": 0.44075656376303496,
+  "gof_validation_near": -0.07526251946481488,
+  "gof_validation_far": -1.448086082308596,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 39.17966684109966,
+  "mae": 22.425228236257094,
+  "theil_u": 1.0752625194648149,
+  "directional_accuracy": 0.5964912280701754,
+  "n_params": 21,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "arch_lm",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 39.17966684109966,
+  "rmse_3yr": 280.80325710376576,
+  "insample_rmse": 3.7320907873708133,
+  "naive_insample_rmse": 6.6734637289322345
+}

@@ -1,0 +1,10 @@
+pandas
+numpy
+scipy
+statsmodels
+arch
+fredapi
+pyarrow
+pyyaml
+tabulate
+matplotlib

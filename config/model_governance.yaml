@@ -1,0 +1,13 @@
+model_owner: "TBD"
+business_owner: "TBD"
+model_name: "National HPI Champion Ensemble"
+model_version: "2026-03-31"
+intended_use: "Quarterly national HPI forecasting for governed research and production candidate evaluation."
+prohibited_use:
+  - "Regional or loan-level decisioning without separate validation"
+  - "Use outside the documented quarterly national HPI forecasting scope"
+review_cadence: "Quarterly"
+approvers:
+  - "TBD"
+implementation_status: "candidate_finalized"
+change_log_entry: "Initial finalized GB/XGB ensemble champion selected on 2026-03-31."

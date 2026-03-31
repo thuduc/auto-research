@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_001",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, no_cycle) with no exogenous variables",
+  "gof_composite": -0.5814297740074326,
+  "gof_insample": -1.776829818001684,
+  "gof_validation_near": 0.2910033280704305,
+  "gof_validation_far": -0.039215633098286906,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 25.833926966481545,
+  "mae": 20.97441666693143,
+  "theil_u": 0.7089966719295695,
+  "directional_accuracy": 0.015037593984962405,
+  "n_params": 2,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 25.833926966481545,
+  "rmse_3yr": 119.20133720623224,
+  "insample_rmse": 18.531073071851736,
+  "naive_insample_rmse": 6.6734637289322345
+}

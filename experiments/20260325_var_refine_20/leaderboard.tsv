@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_var_refine_20	VAR	True	20260325_var_refine_20_004		0.1573103711059332	0.4461754572582451	-0.0199450599957171	-0.5389713831035368	37.164047777604345	176.52491065895677	20	20	VAR(4) trend=ct with term_spread

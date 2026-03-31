@@ -1,0 +1,58 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_021",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=4) with term_spread",
+  "gof_composite": -3.95947092934122e+53,
+  "gof_insample": -55.404270904299246,
+  "gof_validation_near": -2.0896143361262458e+38,
+  "gof_validation_far": -2.6396472862274795e+54,
+  "gof_diagnostic": 0.0,
+  "rmse": 7.613991191338177e+39,
+  "mae": 8.987833986530952e+38,
+  "theil_u": 2.0896143361262458e+38,
+  "directional_accuracy": 0.045112781954887216,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 7.613991191338177e+39,
+  "rmse_3yr": 3.0277593624436816e+56,
+  "insample_rmse": 376.4118560367088,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "exception",
+      "exception": "LU decomposition error."
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

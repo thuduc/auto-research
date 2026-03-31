@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_039",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with consumer_confidence, mortgage_rate",
+  "gof_composite": 0.03638802788332447,
+  "gof_insample": 0.4776307843693771,
+  "gof_validation_near": -0.14864376375205257,
+  "gof_validation_far": -1.1287042347858312,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 41.8534815156689,
+  "mae": 23.745373341957887,
+  "theil_u": 1.1486437637520526,
+  "directional_accuracy": 0.5789473684210527,
+  "n_params": 39,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 41.8534815156689,
+  "rmse_3yr": 244.1691437478999,
+  "insample_rmse": 3.486012013621743,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

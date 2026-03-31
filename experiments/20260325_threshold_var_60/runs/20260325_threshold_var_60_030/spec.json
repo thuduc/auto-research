@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20260325_threshold_var_60",
+  "trial_id": "20260325_threshold_var_60_030",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Threshold VAR(2) delay=2 q=0.5 threshold=mortgage_rate with mortgage_rate, real_gdp",
+    "threshold_var": {
+      "lags": 2,
+      "trend": "c",
+      "delay": 2,
+      "threshold_variable": "mortgage_rate",
+      "threshold_quantile": 0.5,
+      "ridge_alpha": 0.1,
+      "endogenous": [
+        "hpi",
+        "mortgage_rate",
+        "real_gdp"
+      ],
+      "regime_count": 2
+    }
+  }
+}

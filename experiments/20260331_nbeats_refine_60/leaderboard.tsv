@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_nbeats_refine_60	N-BEATS	True	20260331_nbeats_refine_60_026		0.5855872642341936	0.6517529611319541	0.5517388990807277	0.434071989576604	16.333425813617172	64.91374211125938	7	60	N-BEATS lookback=4 stack_width=96 n_blocks=2 n_layers=2 epochs=75 learning_rate=0.01 with housing_inventory

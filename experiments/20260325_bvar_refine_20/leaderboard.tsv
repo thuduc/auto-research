@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_bvar_refine_20	BVAR	True	20260325_bvar_refine_20_004		-0.0679333695165734	0.2867477947437614	-0.179550259929182	-1.1319326429257623	42.97963089921512	244.5394524259747	11	20	BVAR(2) prior=minnesota lambda=0.3 trend=c with building_permits

@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_001",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with consumer_confidence",
+  "gof_composite": -0.20816143486291805,
+  "gof_insample": 0.14434555135460325,
+  "gof_validation_near": -0.3374643472037835,
+  "gof_validation_far": -1.207469781445123,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 48.733594435500805,
+  "mae": 31.401149985892015,
+  "theil_u": 1.3374643472037835,
+  "directional_accuracy": 0.6992481203007519,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 48.733594435500805,
+  "rmse_3yr": 253.20380237748142,
+  "insample_rmse": 5.710178927534565,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

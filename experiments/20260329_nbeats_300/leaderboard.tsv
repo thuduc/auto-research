@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_nbeats_300	N-BEATS	True	20260329_nbeats_300_030		0.3875415766246903	0.7081246363084686	0.1846139442497736	-0.068821055907452	29.71046924156976	122.5971733301434	7	69	N-BEATS lookback=8 stack_width=32 n_blocks=3 n_layers=2 epochs=75 learning_rate=0.01 with mortgage_rate, unemployment_rate

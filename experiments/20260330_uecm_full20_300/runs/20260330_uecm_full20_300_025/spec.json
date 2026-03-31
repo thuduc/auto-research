@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20260330_uecm_full20_300",
+  "trial_id": "20260330_uecm_full20_300_025",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "UECM(ar_lags=2, distributed_lags=1) trend=c with treasury_10y",
+    "uecm": {
+      "exogenous": [
+        "treasury_10y"
+      ],
+      "ar_lags": 2,
+      "distributed_lags": 1,
+      "trend": "c"
+    }
+  }
+}

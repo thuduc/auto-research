@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_var_refine_20",
+  "trial_id": "20260325_var_refine_20_012",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=ct with mortgage_rate, real_gdp",
+  "gof_composite": -0.06153701705468172,
+  "gof_insample": 0.4970716060219603,
+  "gof_validation_near": -0.3279787188272225,
+  "gof_validation_far": -1.4149318302706977,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 48.38796371477493,
+  "mae": 31.597887362489587,
+  "theil_u": 1.3279787188272225,
+  "directional_accuracy": 0.6466165413533834,
+  "n_params": 42,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 48.38796371477493,
+  "rmse_3yr": 277.000358984145,
+  "insample_rmse": 3.3562743954625884,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

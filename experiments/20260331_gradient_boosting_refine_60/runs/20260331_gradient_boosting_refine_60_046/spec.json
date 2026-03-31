@@ -1,0 +1,29 @@
+{
+  "experiment_id": "20260331_gradient_boosting_refine_60",
+  "trial_id": "20260331_gradient_boosting_refine_60_046",
+  "model_class": "Gradient Boosting",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Gradient Boosting n_estimators=500 learning_rate=0.07 max_depth=2 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence",
+    "gradient_boosting": {
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 500,
+      "learning_rate": 0.07,
+      "max_depth": 2,
+      "min_samples_leaf": 1,
+      "subsample": 1.0
+    }
+  }
+}

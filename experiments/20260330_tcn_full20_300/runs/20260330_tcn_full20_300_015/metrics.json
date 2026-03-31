@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_tcn_full20_300",
+  "trial_id": "20260330_tcn_full20_300_015",
+  "model_class": "TCN",
+  "champion_eligible": true,
+  "description": "TCN lookback=8 channels=32 num_blocks=2 kernel_size=2 epochs=75 learning_rate=0.01 with consumer_confidence",
+  "gof_composite": -2.8321396176754634,
+  "gof_insample": 0.4042582976137463,
+  "gof_validation_near": -0.7297564477384464,
+  "gof_validation_far": -18.58952120008337,
+  "gof_diagnostic": 0.5,
+  "rmse": 63.027660791494725,
+  "mae": 29.636472819010415,
+  "theil_u": 1.7297564477384464,
+  "directional_accuracy": 0.5914786967418546,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 63.027660791494725,
+  "rmse_3yr": 2246.9803647179397,
+  "insample_rmse": 3.975660642687006,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

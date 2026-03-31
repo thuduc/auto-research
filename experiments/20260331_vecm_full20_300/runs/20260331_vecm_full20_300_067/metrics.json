@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_vecm_full20_300",
+  "trial_id": "20260331_vecm_full20_300_067",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=1) deterministic=ci with fed_funds, housing_inventory",
+  "gof_composite": 0.12439463660014308,
+  "gof_insample": 0.36362569714594106,
+  "gof_validation_near": 0.10766395373775584,
+  "gof_validation_far": -0.7249201737763193,
+  "gof_diagnostic": 0.5,
+  "rmse": 32.51431940570197,
+  "mae": 20.565221545795385,
+  "theil_u": 0.8923360462622442,
+  "directional_accuracy": 0.5413533834586466,
+  "n_params": 16,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 32.51431940570197,
+  "rmse_3yr": 197.85382815608327,
+  "insample_rmse": 4.246820828121099,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

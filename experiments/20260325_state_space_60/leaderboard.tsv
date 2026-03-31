@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_state_space_60	State-Space	True	20260325_state_space_60_012		-0.4047637817550422	-1.5354595111562843	0.4592748936671479	0.0387777804455127	19.702564848334763	110.2552446999234	5	60	State-Space(local level, no_cycle) with mortgage_rate, unemployment_rate, per_capita_income

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_residual_hybrid_learned_vecm_xgboost	Residual Hybrid	True	20260329_residual_hybrid_learned_vecm_xgboost_001		0.5454610898544491	0.9728818159675514	0.1763977305646336	0.0471277184653785	30.00984591382584	109.29748026119017	20	1	VECM + XGBoost learned residual correction

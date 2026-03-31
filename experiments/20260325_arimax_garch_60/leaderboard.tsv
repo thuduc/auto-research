@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_arimax_garch_60	ARIMAX-GARCH	True	20260325_arimax_garch_60_001		-0.5538579145755398	-1.7020455895991913	0.171036271030596	0.0028730649117439	30.2052030424554	114.3736297273644	6	60	ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=normal with no exogenous variables

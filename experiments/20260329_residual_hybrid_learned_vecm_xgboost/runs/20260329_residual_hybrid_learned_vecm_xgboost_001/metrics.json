@@ -1,0 +1,40 @@
+{
+  "experiment_id": "20260329_residual_hybrid_learned_vecm_xgboost",
+  "trial_id": "20260329_residual_hybrid_learned_vecm_xgboost_001",
+  "model_class": "Residual Hybrid",
+  "champion_eligible": true,
+  "description": "VECM + XGBoost learned residual correction",
+  "gof_composite": 0.5454610898544491,
+  "gof_insample": 0.9728818159675514,
+  "gof_validation_near": 0.1763977305646336,
+  "gof_validation_far": 0.047127718465378554,
+  "gof_diagnostic": 0.875,
+  "rmse": 30.009845913825842,
+  "mae": 20.20769356959005,
+  "theil_u": 0.8236022694353664,
+  "directional_accuracy": 0.7268170426065163,
+  "n_params": 20,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_blended",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [],
+  "error_summary": "",
+  "rmse_1yr": 30.009845913825842,
+  "rmse_3yr": 109.29748026119017,
+  "insample_rmse": 29.508777869256765,
+  "naive_insample_rmse": NaN,
+  "components": [
+    {
+      "role": "base",
+      "experiment_id": "20260325_vecm_refine2_20",
+      "trial_id": "20260325_vecm_refine2_20_001"
+    },
+    {
+      "role": "residual_corrector",
+      "experiment_id": "20260329_xgboost_300",
+      "trial_id": "20260329_xgboost_300_034"
+    }
+  ]
+}

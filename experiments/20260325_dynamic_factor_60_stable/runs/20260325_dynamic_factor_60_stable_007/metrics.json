@@ -1,0 +1,48 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_007",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with per_capita_income",
+  "gof_composite": -6.55592165796852,
+  "gof_insample": -11.56837830197095,
+  "gof_validation_near": -4.613604330877419,
+  "gof_validation_far": -2.0920588091536185,
+  "gof_diagnostic": 0.0,
+  "rmse": 204.5446051360562,
+  "mae": 177.47620165145392,
+  "theil_u": 5.613604330877419,
+  "directional_accuracy": 0.18045112781954886,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 204.5446051360562,
+  "rmse_3yr": 354.66897632453345,
+  "insample_rmse": 83.87461672970204,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

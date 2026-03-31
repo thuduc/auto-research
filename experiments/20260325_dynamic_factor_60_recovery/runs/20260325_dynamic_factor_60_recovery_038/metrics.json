@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_038",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=2) with mortgage_rate, building_permits",
+  "gof_composite": NaN,
+  "gof_insample": NaN,
+  "gof_validation_near": NaN,
+  "gof_validation_far": NaN,
+  "gof_diagnostic": NaN,
+  "rmse": NaN,
+  "mae": NaN,
+  "theil_u": NaN,
+  "directional_accuracy": NaN,
+  "n_params": 0,
+  "status": "error",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [],
+  "error_summary": "Dynamic Factor fit did not converge after recovery attempts: [{\"attempt\": 1, \"name\": \"baseline_lbfgs\", \"method\": \"lbfgs\", \"maxiter\": 200, \"scale_inputs\": false, \"enforce_stationarity\": true, \"status\": \"warning\", \"optimizer_converged\": false, \"warnings\": [\"Maximum Likelihood optimization failed to converge. Check mle_retvals\"]}, {\"attempt\": 2, \"name\": \"relaxed_lbfgs\", \"method\": \"lbfgs\", \"maxiter\": 200, \"scale_inputs\": false, \"enforce_stationarity\": false, \"status\": \"warning\", \"optimizer_converged\": false, \"warnings\": [\"Maximum Likelihood optimization failed to converge. Check mle_retvals\"]}, {\"attempt\": 3, \"name\": \"relaxed_powell\", \"method\": \"powell\", \"maxiter\": 400, \"scale_inputs\": false, \"enforce_stationarity\": false, \"status\": \"warning\", \"optimizer_converged\": false, \"warnings\": [\"Maximum Likelihood optimization failed to converge. Check mle_retvals\"]}, {\"attempt\": 4, \"name\": \"scaled_relaxed_lbfgs\", \"method\": \"lbfgs\", \"maxiter\": 200, \"scale_inputs\": true, \"enforce_stationarity\": false, \"status\": \"warning\", \"optimizer_converged\": false, \"warnings\": [\"Maximum Likelihood optimization failed to converge. Check mle_retvals\"]}]",
+  "rmse_1yr": NaN,
+  "rmse_3yr": NaN
+}

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_dynamic_factor_60_recovery	Dynamic Factor	True	20260325_dynamic_factor_60_recovery_001		-0.8473756861471039	-1.777321630849177	-0.4204928106022918	-0.1507192228664278	51.75892776145093	131.99115346797478	5	60	Dynamic Factor(k_factors=1, factor_order=1) with mortgage_rate

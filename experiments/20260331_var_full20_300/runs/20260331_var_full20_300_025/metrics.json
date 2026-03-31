@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_025",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with m2_money_supply",
+  "gof_composite": -0.279105848198641,
+  "gof_insample": 0.0966640711058161,
+  "gof_validation_near": -0.40340228632944486,
+  "gof_validation_far": -1.2883156206155224,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 51.136195140320275,
+  "mae": 36.24499530930511,
+  "theil_u": 1.4034022863294449,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.136195140320275,
+  "rmse_3yr": 262.47707717218435,
+  "insample_rmse": 6.0283795565166445,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

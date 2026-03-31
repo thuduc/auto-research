@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_ets_300",
+  "trial_id": "20260330_ets_300_002",
+  "model_class": "ETS",
+  "champion_eligible": true,
+  "description": "ETS(error=add, trend=add, damped_trend=False)",
+  "gof_composite": 0.15335467292540955,
+  "gof_insample": 0.25116789473017265,
+  "gof_validation_near": 0.15669999744775243,
+  "gof_validation_far": -0.34638322715581915,
+  "gof_diagnostic": 0.5,
+  "rmse": 30.727578195081602,
+  "mae": 19.868070846986832,
+  "theil_u": 0.8433000025522476,
+  "directional_accuracy": 0.48621553884711777,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.727578195081602,
+  "rmse_3yr": 154.43443685554823,
+  "insample_rmse": 4.997303893578158,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

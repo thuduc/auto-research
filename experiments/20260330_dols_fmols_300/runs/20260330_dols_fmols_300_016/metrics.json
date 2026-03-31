@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_300",
+  "trial_id": "20260330_dols_fmols_300_016",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "FMOLS trend=ct with unemployment_rate",
+  "gof_composite": -2.9851346307606828,
+  "gof_insample": -6.486612335351841,
+  "gof_validation_near": -1.20843268005371,
+  "gof_validation_far": -0.06930267638860421,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 80.46933198096329,
+  "mae": 74.38148664131714,
+  "theil_u": 2.20843268005371,
+  "directional_accuracy": 0.7994987468671679,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 80.46933198096329,
+  "rmse_3yr": 122.65241673059926,
+  "insample_rmse": 49.961635872547156,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

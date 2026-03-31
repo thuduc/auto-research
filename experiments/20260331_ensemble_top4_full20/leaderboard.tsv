@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_ensemble_top4_full20	Model Ensemble	True	20260331_ensemble_top4_full20_002		0.6318170949122243	0.7294544034945645	0.7681034674472101	0.2246607993858329	8.449684353869857	88.93387142962546	39	3	inverse_rmse ensemble of Gradient Boosting, XGBoost, N-BEATS, Transformer

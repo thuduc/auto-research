@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_markov_switching_full20_300",
+  "trial_id": "20260330_markov_switching_full20_300_018",
+  "model_class": "Markov-Switching AR / ARX",
+  "champion_eligible": true,
+  "description": "Markov-Switching AR / ARX with treasury_10y, mortgage_rate",
+  "gof_composite": -4.8795087463079865,
+  "gof_insample": -11.597290538406096,
+  "gof_validation_near": -0.7654691198876735,
+  "gof_validation_far": -0.008331783708609208,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 64.32893426795567,
+  "mae": 52.05856681710957,
+  "theil_u": 1.7654691198876735,
+  "directional_accuracy": 0.5338345864661654,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 64.32893426795567,
+  "rmse_3yr": 115.65886148889736,
+  "insample_rmse": 84.0675614908743,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "bfgs_basic",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

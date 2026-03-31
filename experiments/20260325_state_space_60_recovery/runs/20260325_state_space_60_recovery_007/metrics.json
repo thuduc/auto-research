@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_state_space_60_recovery",
+  "trial_id": "20260325_state_space_60_recovery_007",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, no_cycle) with mortgage_rate, building_permits",
+  "gof_composite": -0.45854718335480876,
+  "gof_insample": -1.465113246481978,
+  "gof_validation_near": 0.2625715142630669,
+  "gof_validation_far": -0.04839371740822562,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 26.869905597276865,
+  "mae": 21.961058921394844,
+  "theil_u": 0.7374284857369331,
+  "directional_accuracy": 0.556390977443609,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 26.869905597276865,
+  "rmse_3yr": 120.25409265745125,
+  "insample_rmse": 16.45084383810787,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

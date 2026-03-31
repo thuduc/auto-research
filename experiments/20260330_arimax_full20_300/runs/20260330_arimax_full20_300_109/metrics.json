@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_arimax_full20_300",
+  "trial_id": "20260330_arimax_full20_300_109",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 1) trend=t with fed_funds, per_capita_income",
+  "gof_composite": -0.5958449267946548,
+  "gof_insample": -1.567545253123677,
+  "gof_validation_near": 0.11755598653022059,
+  "gof_validation_far": -0.4474285198241226,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 32.1538804039009,
+  "mae": 21.223777667794298,
+  "theil_u": 0.8824440134697794,
+  "directional_accuracy": 0.706766917293233,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 32.1538804039009,
+  "rmse_3yr": 166.02465318875238,
+  "insample_rmse": 17.134420119112992,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_var_60",
+  "trial_id": "20260325_var_60_023",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(2) trend=c with housing_inventory",
+  "gof_composite": -0.06425397510933757,
+  "gof_insample": 0.36587848623594854,
+  "gof_validation_near": -0.08923728742591841,
+  "gof_validation_far": -1.5291487933643038,
+  "gof_diagnostic": 0.5,
+  "rmse": 39.68886970364362,
+  "mae": 22.946909351865923,
+  "theil_u": 1.0892372874259184,
+  "directional_accuracy": 0.3634085213032581,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 39.68886970364362,
+  "rmse_3yr": 290.1014077932376,
+  "insample_rmse": 4.23178692184,
+  "naive_insample_rmse": 6.6734637289322345
+}

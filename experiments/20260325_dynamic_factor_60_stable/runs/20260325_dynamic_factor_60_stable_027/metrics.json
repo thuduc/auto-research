@@ -1,0 +1,58 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_027",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=4) with mortgage_rate, unemployment_rate",
+  "gof_composite": -4.7983156094014925e+26,
+  "gof_insample": -804580.5681103766,
+  "gof_validation_near": -1.7957748375842089e+21,
+  "gof_validation_far": -3.198872882793041e+27,
+  "gof_diagnostic": 0.0,
+  "rmse": 6.543319290362509e+22,
+  "mae": 1.145993111574325e+22,
+  "theil_u": 1.7957748375842089e+21,
+  "directional_accuracy": 0.21553884711779447,
+  "n_params": 10,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 6.543319290362509e+22,
+  "rmse_3yr": 3.669208901764298e+29,
+  "insample_rmse": 5369345.911752018,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "exception",
+      "exception": "LU decomposition error."
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

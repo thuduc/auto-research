@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260330_state_space_full20_300",
+  "trial_id": "20260330_state_space_full20_300_023",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, no_cycle) with treasury_10y, housing_inventory",
+  "gof_composite": -0.4403915187743622,
+  "gof_insample": -1.3830878134196238,
+  "gof_validation_near": 0.25466699496605205,
+  "gof_validation_far": -0.03240846810706266,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 27.157924966491212,
+  "mae": 22.085753786304714,
+  "theil_u": 0.745333005033948,
+  "directional_accuracy": 0.5764411027568922,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 27.157924966491212,
+  "rmse_3yr": 118.42053373898817,
+  "insample_rmse": 15.903450085716287,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

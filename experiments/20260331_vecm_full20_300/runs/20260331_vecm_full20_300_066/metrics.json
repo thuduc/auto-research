@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_vecm_full20_300",
+  "trial_id": "20260331_vecm_full20_300_066",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=4) deterministic=ci with fed_funds, mortgage_rate",
+  "gof_composite": 0.09725785164396565,
+  "gof_insample": 0.4626432485517943,
+  "gof_validation_near": 0.05769540071889134,
+  "gof_validation_far": -1.1643966979668714,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 34.335038741093065,
+  "mae": 18.5369997596944,
+  "theil_u": 0.9423045992811087,
+  "directional_accuracy": 0.543859649122807,
+  "n_params": 43,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 34.335038741093065,
+  "rmse_3yr": 248.26318275564626,
+  "insample_rmse": 3.586030790286455,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

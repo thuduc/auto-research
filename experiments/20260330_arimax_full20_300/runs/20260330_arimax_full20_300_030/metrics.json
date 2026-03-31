@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_arimax_full20_300",
+  "trial_id": "20260330_arimax_full20_300_030",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 0) trend=t with fed_funds, housing_inventory",
+  "gof_composite": -0.45919484262808596,
+  "gof_insample": -1.4710030826530742,
+  "gof_validation_near": 0.20281749349510703,
+  "gof_validation_far": 0.007182737113327731,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 29.047180991633642,
+  "mae": 19.420501825248838,
+  "theil_u": 0.797182506504893,
+  "directional_accuracy": 0.8345864661654135,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.047180991633642,
+  "rmse_3yr": 113.87929662363912,
+  "insample_rmse": 16.49014944616503,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,48 @@
+{
+  "experiment_id": "20260325_state_space_60_recovery",
+  "trial_id": "20260325_state_space_60_recovery_031",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, cycle) with no exogenous variables",
+  "gof_composite": -0.6783219118138328,
+  "gof_insample": -1.776829817890858,
+  "gof_validation_near": 0.1323610610194329,
+  "gof_validation_far": -0.3149979289841629,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 31.61442341033461,
+  "mae": 24.390754535424055,
+  "theil_u": 0.8676389389805671,
+  "directional_accuracy": 0.12280701754385964,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 31.61442341033461,
+  "rmse_3yr": 150.83444336861047,
+  "insample_rmse": 18.531073071112143,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

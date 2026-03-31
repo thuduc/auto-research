@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_full20_300",
+  "trial_id": "20260330_uecm_full20_300_025",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=2, distributed_lags=1) trend=c with treasury_10y",
+  "gof_composite": -22.385298647999722,
+  "gof_insample": -55.03490437912758,
+  "gof_validation_near": -0.3342426051130183,
+  "gof_validation_far": -1.88615608753704,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 48.61620284090961,
+  "mae": 31.935715643730667,
+  "theil_u": 1.3342426051130183,
+  "directional_accuracy": 0.631578947368421,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 48.61620284090961,
+  "rmse_3yr": 331.0512795064781,
+  "insample_rmse": 373.9469019282939,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

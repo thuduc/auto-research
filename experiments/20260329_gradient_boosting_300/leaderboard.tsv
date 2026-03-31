@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_gradient_boosting_300	Gradient Boosting	True	20260329_gradient_boosting_300_067		0.5604065322595904	0.987694481958824	0.244401380124876	-0.0236338460065286	27.531976290810142	117.4140566859586	9	107	Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4, 8] with no exogenous variables

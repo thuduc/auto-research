@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_arimax_full20_300",
+  "trial_id": "20260330_arimax_full20_300_096",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 1) trend=t with consumer_confidence, population",
+  "gof_composite": -0.7893205998572523,
+  "gof_insample": -1.4265049686010207,
+  "gof_validation_near": -0.0977810182027794,
+  "gof_validation_far": -1.6109207545915232,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 40.000180215595684,
+  "mae": 24.59397302274127,
+  "theil_u": 1.0977810182027794,
+  "directional_accuracy": 0.8145363408521303,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 40.000180215595684,
+  "rmse_3yr": 299.48091173237714,
+  "insample_rmse": 16.193192896032762,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

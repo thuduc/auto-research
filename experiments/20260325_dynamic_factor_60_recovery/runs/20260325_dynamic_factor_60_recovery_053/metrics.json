@@ -1,0 +1,62 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_053",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=2) with mortgage_rate, housing_starts, building_permits",
+  "gof_composite": -1.3765559346889947e+49,
+  "gof_insample": -6340.665706988577,
+  "gof_validation_near": -3.992379746243595e+37,
+  "gof_validation_far": -9.177039564583983e+49,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 1.4547155278771576e+39,
+  "mae": 1.896714443501057e+38,
+  "theil_u": 3.992379746243595e+37,
+  "directional_accuracy": 0.6842105263157895,
+  "n_params": 20,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "cusum"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 1.4547155278771576e+39,
+  "rmse_3yr": 1.0526356156051491e+52,
+  "insample_rmse": 42320.876076601664,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

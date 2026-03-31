@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_full20_300",
+  "trial_id": "20260330_uecm_full20_300_041",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=1, distributed_lags=4) trend=c with fed_funds",
+  "gof_composite": -22.49417739092402,
+  "gof_insample": -55.39707853247815,
+  "gof_validation_near": -0.4172082391596057,
+  "gof_validation_far": -1.357392056750761,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 51.63924683469057,
+  "mae": 37.54385566902548,
+  "theil_u": 1.4172082391596057,
+  "directional_accuracy": 0.7493734335839599,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.63924683469057,
+  "rmse_3yr": 270.4003640190274,
+  "insample_rmse": 376.3638580042357,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

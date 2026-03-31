@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_threshold_var_full20_300",
+  "trial_id": "20260331_threshold_var_full20_300_070",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "description": "Threshold VAR(2) delay=1 q=0.5 threshold=new_home_sales with new_home_sales",
+  "gof_composite": -5.668152564744677,
+  "gof_insample": 0.39679738760319827,
+  "gof_validation_near": -13.240726305941902,
+  "gof_validation_far": -8.061893195819719,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 518.8936674922807,
+  "mae": 365.1948652469936,
+  "theil_u": 14.240726305941902,
+  "directional_accuracy": 0.6340852130325815,
+  "n_params": 23,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 518.8936674922807,
+  "rmse_3yr": 1039.4279610106728,
+  "insample_rmse": 4.025450755027226,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

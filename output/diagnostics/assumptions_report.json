@@ -1,0 +1,82 @@
+{
+  "model_class": "Model Ensemble",
+  "method": "weighted_average",
+  "assumptions": [
+    "Historical quarterly HPI and macro relationships are informative for future forecasting over the governed use horizon.",
+    "The finalized ensemble uses fixed weights and does not adapt online after model approval.",
+    "Forecast quality depends on the continued informativeness of lagged HPI and consumer_confidence, which dominate the selected component specifications.",
+    "The validation framework based on annual rolling origins from 2005-12-31 through 2014-12-31 remains representative enough for model ranking.",
+    "The national aggregate model is intended for national HPI forecasting and does not imply regional segmentation validity."
+  ],
+  "limitations": [
+    "The finalized champion currently has baseline forecast artifacts only; adverse and severely adverse scenario forecasts are not yet generated for the ensemble artifact.",
+    "No in-model overlays are present in the finalized champion.",
+    "Model relationships may degrade under structural breaks not well represented in the search sample."
+  ],
+  "dominant_drivers": [
+    {
+      "model_class": "Gradient Boosting",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091",
+      "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence",
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "feature_importance": [
+        {
+          "feature": "hpi_lag_1",
+          "importance": 0.5317769574409508
+        },
+        {
+          "feature": "hpi_lag_2",
+          "importance": 0.2691664768714388
+        },
+        {
+          "feature": "hpi_lag_4",
+          "importance": 0.197995557884735
+        },
+        {
+          "feature": "consumer_confidence",
+          "importance": 0.0010610078028755216
+        }
+      ]
+    },
+    {
+      "model_class": "XGBoost",
+      "experiment_id": "20260330_xgboost_full20_300",
+      "trial_id": "20260330_xgboost_full20_300_068",
+      "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence",
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "feature_importance": [
+        {
+          "feature": "hpi_lag_1",
+          "importance": 0.818229615688324
+        },
+        {
+          "feature": "hpi_lag_2",
+          "importance": 0.17340853810310364
+        },
+        {
+          "feature": "hpi_lag_4",
+          "importance": 0.007379158399999142
+        },
+        {
+          "feature": "consumer_confidence",
+          "importance": 0.0009826438035815954
+        }
+      ]
+    }
+  ]
+}

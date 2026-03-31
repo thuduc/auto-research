@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_027",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local linear trend, no_cycle) with mortgage_rate, unemployment_rate, per_capita_income",
+  "gof_composite": -0.6173987705522022,
+  "gof_insample": -1.7611587824954693,
+  "gof_validation_near": 0.22150634417776838,
+  "gof_validation_far": -0.3173689010606031,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 28.36620966590179,
+  "mae": 18.019219994889166,
+  "theil_u": 0.7784936558222316,
+  "directional_accuracy": 0.5213032581453634,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 28.36620966590179,
+  "rmse_3yr": 151.1064014040643,
+  "insample_rmse": 18.426492984806202,
+  "naive_insample_rmse": 6.6734637289322345
+}

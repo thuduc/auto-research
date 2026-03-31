@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_threshold_var_full20_300",
+  "trial_id": "20260331_threshold_var_full20_300_075",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "description": "Threshold VAR(1) delay=1 q=0.6 threshold=hpi with personal_consumption",
+  "gof_composite": -0.42009123315143665,
+  "gof_insample": 0.10585987192356061,
+  "gof_validation_near": -0.41396943069885994,
+  "gof_validation_far": -2.3391947633972885,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 51.52123338759551,
+  "mae": 37.055172900447786,
+  "theil_u": 1.41396943069886,
+  "directional_accuracy": 0.6390977443609023,
+  "n_params": 15,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.52123338759551,
+  "rmse_3yr": 383.01625602216046,
+  "insample_rmse": 5.967011713300941,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

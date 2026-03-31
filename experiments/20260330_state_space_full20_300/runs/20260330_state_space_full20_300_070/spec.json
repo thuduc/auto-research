@@ -1,0 +1,25 @@
+{
+  "experiment_id": "20260330_state_space_full20_300",
+  "trial_id": "20260330_state_space_full20_300_070",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "State-Space(local level, no_cycle) with treasury_10y, mortgage_rate, housing_inventory",
+    "state_space": {
+      "level": "local level",
+      "cycle": false,
+      "stochastic_cycle": false,
+      "damped_cycle": false,
+      "exogenous": [
+        "treasury_10y",
+        "mortgage_rate",
+        "housing_inventory"
+      ]
+    }
+  }
+}

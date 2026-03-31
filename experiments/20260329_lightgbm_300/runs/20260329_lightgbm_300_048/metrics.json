@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_lightgbm_300",
+  "trial_id": "20260329_lightgbm_300_048",
+  "model_class": "LightGBM",
+  "champion_eligible": true,
+  "description": "LightGBM n_estimators=500 learning_rate=0.03 max_depth=4 num_leaves=31 lags=[1, 2, 4, 8] with no exogenous variables",
+  "gof_composite": -0.08367792355145982,
+  "gof_insample": -0.47509786955224764,
+  "gof_validation_near": 0.1559499145002512,
+  "gof_validation_far": 0.011858361295675524,
+  "gof_diagnostic": 0.5,
+  "rmse": 30.754909195143725,
+  "mae": 25.918407167131555,
+  "theil_u": 0.8440500854997488,
+  "directional_accuracy": 0.11027568922305764,
+  "n_params": 12,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.754909195143725,
+  "rmse_3yr": 113.34298766420977,
+  "insample_rmse": 9.844012129082138,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

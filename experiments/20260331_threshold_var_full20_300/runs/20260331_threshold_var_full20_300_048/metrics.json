@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_threshold_var_full20_300",
+  "trial_id": "20260331_threshold_var_full20_300_048",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "description": "Threshold VAR(2) delay=2 q=0.5 threshold=mortgage_rate with mortgage_rate",
+  "gof_composite": -2.872624174615369,
+  "gof_insample": 0.31332310354037474,
+  "gof_validation_near": -4.987305460823548,
+  "gof_validation_far": -8.571532253844069,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 218.16126665302158,
+  "mae": 125.30956304368814,
+  "theil_u": 5.987305460823548,
+  "directional_accuracy": 0.38345864661654133,
+  "n_params": 23,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 218.16126665302158,
+  "rmse_3yr": 1097.8851813162505,
+  "insample_rmse": 4.582513362019065,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_ardl_full20_300",
+  "trial_id": "20260330_ardl_full20_300_034",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "description": "ARDL(ar_lags=4, distributed_lags=2) trend=ct with consumer_confidence",
+  "gof_composite": -4.79936285680094e+16,
+  "gof_insample": 0.4463928788201642,
+  "gof_validation_near": -485060.2932888308,
+  "gof_validation_far": -3.199575237855976e+17,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 17674325.594486784,
+  "mae": 6427722.658640321,
+  "theil_u": 485061.2932888308,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 17674325.594486784,
+  "rmse_3yr": 3.670014525352213e+19,
+  "insample_rmse": 3.6944770432722267,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,37 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60",
+  "trial_id": "20260325_dynamic_factor_60_001",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with mortgage_rate",
+  "gof_composite": -0.8473756861471039,
+  "gof_insample": -1.777321630849177,
+  "gof_validation_near": -0.4204928106022918,
+  "gof_validation_far": -0.1507192228664278,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 51.75892776145093,
+  "mae": 36.13343200189088,
+  "theil_u": 1.4204928106022918,
+  "directional_accuracy": 0.18796992481203006,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.75892776145093,
+  "rmse_3yr": 131.99115346797478,
+  "insample_rmse": 18.534355167050904,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

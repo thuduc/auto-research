@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_var_60",
+  "trial_id": "20260325_var_60_012",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with real_gdp",
+  "gof_composite": -0.12785236908573466,
+  "gof_insample": 0.4581296568594584,
+  "gof_validation_near": -0.308565876160817,
+  "gof_validation_far": -1.7984856122659916,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 47.68061207334786,
+  "mae": 30.671307882088946,
+  "theil_u": 1.308565876160817,
+  "directional_accuracy": 0.38345864661654133,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 47.68061207334786,
+  "rmse_3yr": 320.99519725273234,
+  "insample_rmse": 3.6161520807324683,
+  "naive_insample_rmse": 6.6734637289322345
+}

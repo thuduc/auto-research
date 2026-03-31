@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20260329_nbeats_300",
+  "trial_id": "20260329_nbeats_300_036",
+  "model_class": "N-BEATS",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "N-BEATS lookback=4 stack_width=64 n_blocks=3 n_layers=2 epochs=75 learning_rate=0.01 with per_capita_income",
+    "nbeats": {
+      "exogenous": [
+        "per_capita_income"
+      ],
+      "lookback": 4,
+      "stack_width": 64,
+      "n_blocks": 3,
+      "n_layers": 2,
+      "epochs": 75,
+      "learning_rate": 0.01,
+      "dropout": 0.0
+    }
+  }
+}

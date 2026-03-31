@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_017",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "VECM(k_ar_diff=2) deterministic=ci with building_permits",
+    "vecm": {
+      "k_ar_diff": 2,
+      "deterministic": "ci",
+      "endogenous": [
+        "hpi",
+        "building_permits"
+      ]
+    }
+  }
+}

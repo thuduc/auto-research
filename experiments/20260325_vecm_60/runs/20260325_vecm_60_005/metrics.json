@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_005",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=2) deterministic=ci with unemployment_rate",
+  "gof_composite": -0.07261452790314994,
+  "gof_insample": 0.28368194306520167,
+  "gof_validation_near": -0.10248828738435023,
+  "gof_validation_far": -1.3347760302980536,
+  "gof_diagnostic": 0.5,
+  "rmse": 40.171700411758685,
+  "mae": 25.064916474409305,
+  "theil_u": 1.1024882873843502,
+  "directional_accuracy": 0.48872180451127817,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 40.171700411758685,
+  "rmse_3yr": 267.80623387934037,
+  "insample_rmse": 4.780322571333592,
+  "naive_insample_rmse": 6.6734637289322345
+}

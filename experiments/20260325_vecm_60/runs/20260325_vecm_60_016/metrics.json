@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_016",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=1) deterministic=ci with building_permits",
+  "gof_composite": 0.2345571216970301,
+  "gof_insample": 0.29098270691902994,
+  "gof_validation_near": 0.2726626274973175,
+  "gof_validation_far": -0.07067476018650898,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 26.502212640983238,
+  "mae": 18.306291692592687,
+  "theil_u": 0.7273373725026825,
+  "directional_accuracy": 0.6591478696741855,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 26.502212640983238,
+  "rmse_3yr": 122.8097991046323,
+  "insample_rmse": 4.731601188561569,
+  "naive_insample_rmse": 6.6734637289322345
+}

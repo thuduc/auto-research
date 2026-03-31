@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_var_refine2_20",
+  "trial_id": "20260325_var_refine2_20_001",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=ct with term_spread",
+  "gof_composite": 0.15731037110593324,
+  "gof_insample": 0.44617545725824515,
+  "gof_validation_near": -0.019945059995717163,
+  "gof_validation_far": -0.5389713831035368,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 37.164047777604345,
+  "mae": 25.304102841277633,
+  "theil_u": 1.0199450599957172,
+  "directional_accuracy": 0.6967418546365914,
+  "n_params": 20,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 37.164047777604345,
+  "rmse_3yr": 176.52491065895677,
+  "insample_rmse": 3.695927998179581,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

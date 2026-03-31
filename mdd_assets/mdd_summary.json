@@ -1,0 +1,27 @@
+{
+  "primary_search_start": "1995-03-31",
+  "search_start": "1976-09-30",
+  "search_end": "2024-12-31",
+  "holdout_start": "2025-03-31",
+  "holdout_end": "2025-12-31",
+  "backtest_origins": 10,
+  "near_horizons": "1-12",
+  "far_horizons": "13-40",
+  "current_champion": {
+    "model_class": "VECM",
+    "experiment_id": "20260325_vecm_refine2_20",
+    "trial_id": "20260325_vecm_refine2_20_001",
+    "description": "VECM(k_ar_diff=1) deterministic=co with building_permits",
+    "gof_composite": 0.24556988967133025
+  },
+  "best_hybrid": {
+    "description": "hard_switch_12 hybrid of State-Space (near) and VECM (far)",
+    "gof_composite": 0.14292914903624665,
+    "gof_val_near": 0.4592748936671479,
+    "gof_val_far": 0.04981304870989389
+  },
+  "best_ensemble": {
+    "description": "inverse_rmse ensemble of VECM, VAR, BVAR, State-Space, ARIMAX-GARCH",
+    "gof_composite": -0.0251777532952987
+  }
+}

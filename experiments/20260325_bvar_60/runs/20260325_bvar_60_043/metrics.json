@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_bvar_60",
+  "trial_id": "20260325_bvar_60_043",
+  "model_class": "BVAR",
+  "champion_eligible": true,
+  "description": "BVAR(2) prior=minnesota lambda=0.1 trend=c with mortgage_rate, term_spread",
+  "gof_composite": -0.14623895162684747,
+  "gof_insample": 0.28675451364470006,
+  "gof_validation_near": -0.2615258033098662,
+  "gof_validation_far": -1.4627115061751623,
+  "gof_diagnostic": 0.5,
+  "rmse": 45.966598658838976,
+  "mae": 30.65065530171248,
+  "theil_u": 1.2615258033098662,
+  "directional_accuracy": 0.7518796992481203,
+  "n_params": 22,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 45.966598658838976,
+  "rmse_3yr": 282.48083972144155,
+  "insample_rmse": 4.7598178830167255,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

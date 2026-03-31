@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_gradient_boosting_300",
+  "trial_id": "20260329_gradient_boosting_300_059",
+  "model_class": "Gradient Boosting",
+  "champion_eligible": true,
+  "description": "Gradient Boosting n_estimators=200 learning_rate=0.1 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4, 8] with no exogenous variables",
+  "gof_composite": 0.5369356662762473,
+  "gof_insample": 0.9682628866943392,
+  "gof_validation_near": 0.24761921544639842,
+  "gof_validation_far": -0.024685869829297102,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 27.414727048355825,
+  "mae": 22.40124299921134,
+  "theil_u": 0.7523807845536016,
+  "directional_accuracy": 0.17794486215538846,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 27.414727048355825,
+  "rmse_3yr": 117.53472716324247,
+  "insample_rmse": 0.2117964745063393,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

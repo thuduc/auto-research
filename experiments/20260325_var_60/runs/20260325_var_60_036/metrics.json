@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_var_60",
+  "trial_id": "20260325_var_60_036",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with mortgage_rate, housing_starts",
+  "gof_composite": 0.02054346682888257,
+  "gof_insample": 0.48293177178652047,
+  "gof_validation_near": -0.13079152030206753,
+  "gof_validation_far": -1.2901258429777913,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 41.202993901644426,
+  "mae": 24.89566403716485,
+  "theil_u": 1.1307915203020675,
+  "directional_accuracy": 0.556390977443609,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 41.202993901644426,
+  "rmse_3yr": 262.68471543257095,
+  "insample_rmse": 3.4506360663659104,
+  "naive_insample_rmse": 6.6734637289322345
+}

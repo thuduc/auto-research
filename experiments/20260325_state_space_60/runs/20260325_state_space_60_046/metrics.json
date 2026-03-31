@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_046",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local linear trend, cycle) with no exogenous variables",
+  "gof_composite": -0.5791752869297142,
+  "gof_insample": -1.623954480743821,
+  "gof_validation_near": 0.15835591420090867,
+  "gof_validation_far": -0.34456487512780276,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 30.66724105365725,
+  "mae": 19.833480641488624,
+  "theil_u": 0.8416440857990913,
+  "directional_accuracy": 0.48621553884711777,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.66724105365725,
+  "rmse_3yr": 154.22586609665288,
+  "insample_rmse": 17.510865053613106,
+  "naive_insample_rmse": 6.6734637289322345
+}

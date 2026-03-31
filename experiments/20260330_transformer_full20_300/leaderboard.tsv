@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_transformer_full20_300	Transformer	True	20260330_transformer_full20_300_014		0.4925451666321037	0.3865372741598296	0.7643814846318854	0.1359782489800797	8.585303371600805	99.10604191912104	8	54	Transformer lookback=8 model_dim=16 num_heads=2 num_layers=2 feedforward_dim=32 epochs=75 learning_rate=0.01 with consumer_confidence

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_xgboost_300	XGBoost	True	20260329_xgboost_300_034		0.565112281218815	0.8869442992136412	0.298727806405034	0.0385321952773106	25.552467804469934	110.28341409953148	10	74	XGBoost n_estimators=500 learning_rate=0.1 max_depth=2 subsample=0.8 colsample_bytree=0.8 lags=[1, 4, 8] with no exogenous variables

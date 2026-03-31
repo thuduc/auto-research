@@ -1,0 +1,238 @@
+{
+  "search_start": "1976-09-30",
+  "search_end": "2024-12-31",
+  "primary_search_start": "1995-03-31",
+  "target_column": "hpi",
+  "row_count": 194,
+  "column_count": 23,
+  "included_variables": [
+    "real_gdp",
+    "per_capita_income",
+    "population",
+    "unemployment_rate",
+    "consumer_confidence",
+    "personal_consumption",
+    "housing_starts",
+    "building_permits",
+    "new_home_sales",
+    "housing_inventory",
+    "mortgage_rate",
+    "treasury_10y",
+    "fed_funds",
+    "term_spread",
+    "m2_money_supply",
+    "cpi_all_items",
+    "cpi_less_shelter",
+    "ppi_construction"
+  ],
+  "excluded_variables": [
+    {
+      "key": "existing_home_sales",
+      "series_id": "EXHOSLUSM495S",
+      "reason": "insufficient_history_for_primary_search_window",
+      "first_valid_date": "2025-03-31"
+    },
+    {
+      "key": "sp500",
+      "series_id": "SP500",
+      "reason": "insufficient_history_for_primary_search_window",
+      "first_valid_date": "2016-06-30"
+    }
+  ],
+  "coverage_summary": [
+    {
+      "column": "hpi",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "real_gdp",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "per_capita_income",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "population",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "unemployment_rate",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "consumer_confidence",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "personal_consumption",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "housing_starts",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "building_permits",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "new_home_sales",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "housing_inventory",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "mortgage_rate",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "treasury_10y",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "fed_funds",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "term_spread",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "m2_money_supply",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "cpi_all_items",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "cpi_less_shelter",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    },
+    {
+      "column": "ppi_construction",
+      "dtype": "float64",
+      "rows": 194,
+      "non_null_rows": 194,
+      "missing_rows": 0,
+      "missing_rate": 0.0,
+      "first_valid_date": "1976-09-30",
+      "last_valid_date": "2024-12-31"
+    }
+  ],
+  "dummy_variables": [
+    "gfc_dummy",
+    "covid_dummy"
+  ]
+}

@@ -1,0 +1,58 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_022",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with housing_inventory",
+  "gof_composite": -23.841200436147947,
+  "gof_insample": -55.404270904299246,
+  "gof_validation_near": -4.332628400895618,
+  "gof_validation_far": -1.0871475607652061,
+  "gof_diagnostic": 0.0,
+  "rmse": 194.30659987894524,
+  "mae": 135.55112791330762,
+  "theil_u": 5.332628400895618,
+  "directional_accuracy": 0.08020050125313283,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 194.30659987894524,
+  "rmse_3yr": 239.40246111213793,
+  "insample_rmse": 376.4118560367088,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "exception",
+      "exception": "Non-stationary starting autoregressive parameters found with `enforce_stationarity` set to True."
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

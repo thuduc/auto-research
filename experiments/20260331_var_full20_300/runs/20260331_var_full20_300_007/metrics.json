@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_007",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with fed_funds",
+  "gof_composite": -0.41743353381280823,
+  "gof_insample": 0.08057365560261143,
+  "gof_validation_near": -0.4188164921523847,
+  "gof_validation_far": -2.131625936447899,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 51.697847237208684,
+  "mae": 37.30465435715754,
+  "theil_u": 1.4188164921523847,
+  "directional_accuracy": 0.7919799498746867,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.697847237208684,
+  "rmse_3yr": 359.20745162520416,
+  "insample_rmse": 6.13575836076073,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

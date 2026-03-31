@@ -1,0 +1,74 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_025",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=1) with mortgage_rate, unemployment_rate",
+  "gof_composite": -25.315138145647087,
+  "gof_insample": -55.404270904299246,
+  "gof_validation_near": -7.940776185880512,
+  "gof_validation_far": -2.49438745912804,
+  "gof_diagnostic": 0.0,
+  "rmse": 325.7777760522962,
+  "mae": 311.91288306746293,
+  "theil_u": 8.940776185880512,
+  "directional_accuracy": 0.06015037593984962,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 325.7777760522962,
+  "rmse_3yr": 400.81735164328063,
+  "insample_rmse": 376.4118560367088,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 3,
+      "name": "relaxed_powell",
+      "method": "powell",
+      "maxiter": 400,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_powell",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

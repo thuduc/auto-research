@@ -1,0 +1,31 @@
+{
+  "experiment_id": "20260329_xgboost_300",
+  "trial_id": "20260329_xgboost_300_064",
+  "model_class": "XGBoost",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "XGBoost n_estimators=500 learning_rate=0.03 max_depth=2 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with mortgage_rate",
+    "xgboost": {
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 500,
+      "learning_rate": 0.03,
+      "max_depth": 2,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 1.0,
+      "min_child_weight": 1.0
+    }
+  }
+}

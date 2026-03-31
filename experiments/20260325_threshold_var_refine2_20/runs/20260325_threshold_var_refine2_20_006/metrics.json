@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_threshold_var_refine2_20",
+  "trial_id": "20260325_threshold_var_refine2_20_006",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "description": "Threshold VAR(1) delay=1 q=0.5 threshold=housing_inventory with mortgage_rate, housing_inventory, building_permits",
+  "gof_composite": -0.38602770165181793,
+  "gof_insample": 0.3329066082423382,
+  "gof_validation_near": -0.9343515521286208,
+  "gof_validation_far": -1.6144486780249063,
+  "gof_diagnostic": 0.5,
+  "rmse": 70.48255471946014,
+  "mae": 52.77215777249944,
+  "theil_u": 1.9343515521286208,
+  "directional_accuracy": 0.731829573934837,
+  "n_params": 43,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 70.48255471946014,
+  "rmse_3yr": 299.885575766892,
+  "insample_rmse": 4.451823553705138,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

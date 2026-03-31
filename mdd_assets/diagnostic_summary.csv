@@ -1,0 +1,11 @@
+model_class,passed,failed,directional_accuracy,theil_u,mae
+VECM,"cusum, adf, forecast_plausibility","ljung_box, jarque_bera, arch_lm",0.8320802005012531,0.8096693722491884,19.744578644924257
+VAR,"ljung_box, cusum, adf, forecast_plausibility","jarque_bera, arch_lm",0.6967418546365914,1.0199450599957172,25.304102841277633
+Horizon Hybrid,"component_diagnostics_weighted, forecast_plausibility",,0.8546365914786967,0.5407251063328521,16.39243219268985
+Econometric Ensemble,"component_diagnostics_mean, forecast_plausibility",,0.7744360902255639,0.7176426299305075,19.603071643280646
+BVAR,"cusum, adf, forecast_plausibility","ljung_box, jarque_bera, arch_lm",0.7644110275689223,1.179550259929182,27.818612719383843
+Threshold VAR / SETAR,"cusum, adf","ljung_box, jarque_bera, arch_lm, forecast_plausibility",0.5764411027568922,1.5035205962661549,40.447197336408394
+State-Space,"ljung_box, adf, forecast_plausibility","jarque_bera, arch_lm, cusum, economic_sign",0.6867167919799498,0.5407251063328521,16.39243219268985
+ARIMAX-GARCH,"cusum, adf, forecast_plausibility, std_resid_unit_variance","ljung_box, jarque_bera, arch_lm, economic_sign, volatility_coverage_90",0.8195488721804511,0.7654474532954567,20.380265601337122
+ARIMAX,"ljung_box, cusum, adf, forecast_plausibility","jarque_bera, arch_lm, economic_sign",0.7167919799498746,0.9118659264136402,21.89396535335684
+Dynamic Factor,"ljung_box, forecast_plausibility","jarque_bera, arch_lm, cusum, adf",0.18796992481203006,0.6973577589061469,20.687850939421093

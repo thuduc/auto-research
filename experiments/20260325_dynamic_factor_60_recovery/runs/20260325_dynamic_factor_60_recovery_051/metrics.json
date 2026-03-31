@@ -1,0 +1,48 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_051",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=4) with mortgage_rate, real_gdp, building_permits",
+  "gof_composite": -939.3856000481204,
+  "gof_insample": -10.409992615989228,
+  "gof_validation_near": -2193.4489994535397,
+  "gof_validation_far": -1116.763021286572,
+  "gof_diagnostic": 0.0,
+  "rmse": 79959.80436588405,
+  "mae": 28017.205825671183,
+  "theil_u": 2194.4489994535397,
+  "directional_accuracy": 0.5413533834586466,
+  "n_params": 28,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 79959.80436588405,
+  "rmse_3yr": 128210.97236557462,
+  "insample_rmse": 76.14417187018874,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

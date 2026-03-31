@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260331_dynamic_factor_full20_300",
+  "trial_id": "20260331_dynamic_factor_full20_300_046",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with treasury_10y, fed_funds",
+  "gof_composite": -14.798156958414468,
+  "gof_insample": -32.8192611035657,
+  "gof_validation_near": -4.207320221406513,
+  "gof_validation_far": -1.4303807077505026,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 189.74070770287327,
+  "mae": 185.14666172629094,
+  "theil_u": 5.207320221406513,
+  "directional_accuracy": 0.19047619047619047,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 189.74070770287327,
+  "rmse_3yr": 278.7723943493538,
+  "insample_rmse": 225.69161231393443,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

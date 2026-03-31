@@ -1,0 +1,74 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_054",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=4) with mortgage_rate, housing_starts, building_permits",
+  "gof_composite": -4.14371057996707e+16,
+  "gof_insample": -4.157392508413309e+16,
+  "gof_validation_near": -252256898935313.88,
+  "gof_validation_far": -1.6479497234260074e+17,
+  "gof_diagnostic": 0.0,
+  "rmse": 9191561204582646.0,
+  "mae": 2151259752486701.8,
+  "theil_u": 252256898935314.88,
+  "directional_accuracy": 0.5639097744360902,
+  "n_params": 28,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 9191561204582646.0,
+  "rmse_3yr": 1.890250727804842e+19,
+  "insample_rmse": 2.7744208111830816e+17,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 3,
+      "name": "relaxed_powell",
+      "method": "powell",
+      "maxiter": 400,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_powell",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

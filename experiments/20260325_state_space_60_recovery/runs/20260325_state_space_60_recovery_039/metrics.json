@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_state_space_60_recovery",
+  "trial_id": "20260325_state_space_60_recovery_039",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, cycle) with mortgage_rate, housing_inventory",
+  "gof_composite": -0.5022862865631248,
+  "gof_insample": -1.2866773679810835,
+  "gof_validation_near": 0.08561180749977637,
+  "gof_validation_far": -0.3076726704469439,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 33.31784015258458,
+  "mae": 25.801383311970376,
+  "theil_u": 0.9143881925002236,
+  "directional_accuracy": 0.5588972431077694,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 33.31784015258458,
+  "rmse_3yr": 149.99421292441036,
+  "insample_rmse": 15.26005847499199,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_markov_switching_full20_300	Markov-Switching AR / ARX	True	20260330_markov_switching_full20_300_018		-4.8795087463079865	-11.597290538406096	-0.7654691198876735	-0.008331783708609208	64.32893426795567	115.65886148889736	8	18	Markov-Switching AR / ARX with treasury_10y, mortgage_rate

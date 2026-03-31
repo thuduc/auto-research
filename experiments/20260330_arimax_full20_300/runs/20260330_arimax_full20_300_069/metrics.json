@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_arimax_full20_300",
+  "trial_id": "20260330_arimax_full20_300_069",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 0) trend=t with treasury_10y, fed_funds, new_home_sales",
+  "gof_composite": -1.1926510803912136,
+  "gof_insample": -3.285796188934981,
+  "gof_validation_near": 0.17571694579567088,
+  "gof_validation_far": -0.07508071516184822,
+  "gof_diagnostic": 0.7142857142857143,
+  "rmse": 30.034651875119582,
+  "mae": 19.818650350917657,
+  "theil_u": 0.8242830542043291,
+  "directional_accuracy": 0.7769423558897243,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.034651875119582,
+  "rmse_3yr": 123.31517614862949,
+  "insample_rmse": 28.601105416453596,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_arimax_60	ARIMAX	True	20260325_arimax_60_029		-0.5173939005437486	-1.3730115478342415	0.0881340735863598	-0.374527095387567	33.22593557749892	157.6626280225522	6	60	ARIMAX(1, 1, 1) trend=t with mortgage_rate, fed_funds

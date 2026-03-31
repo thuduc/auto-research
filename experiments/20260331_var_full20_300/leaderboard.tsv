@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_var_full20_300	VAR	True	20260331_var_full20_300_036		0.1365498921865554	0.4733093286041191	0.0474514077075977	-0.9069899907961207	34.708302224232796	218.73781504237536	39	49	VAR(4) trend=c with consumer_confidence, fed_funds

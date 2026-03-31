@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_vecm_full20_300",
+  "trial_id": "20260331_vecm_full20_300_091",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=1) deterministic=ci with housing_inventory, new_home_sales",
+  "gof_composite": -0.28526674658041884,
+  "gof_insample": 0.3320342812736624,
+  "gof_validation_near": -0.4358468482561719,
+  "gof_validation_far": -1.9924493035570463,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 52.31838749249794,
+  "mae": 33.1346822890522,
+  "theil_u": 1.435846848256172,
+  "directional_accuracy": 0.49624060150375937,
+  "n_params": 16,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 52.31838749249794,
+  "rmse_3yr": 343.2434493334089,
+  "insample_rmse": 4.457644996090365,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

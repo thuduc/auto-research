@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_random_forest_full20_300",
+  "trial_id": "20260330_random_forest_full20_300_010",
+  "model_class": "Random Forest",
+  "champion_eligible": true,
+  "description": "Random Forest n_estimators=500 max_depth=5 min_samples_leaf=4 lags=[1, 2, 4] with no exogenous variables",
+  "gof_composite": 0.11350875738961544,
+  "gof_insample": 0.006339381898865959,
+  "gof_validation_near": 0.23610937569494916,
+  "gof_validation_far": -0.03332406797664311,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 27.834114573441955,
+  "mae": 23.21015777949224,
+  "theil_u": 0.7638906243050508,
+  "directional_accuracy": 0.3483709273182957,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 27.834114573441955,
+  "rmse_3yr": 118.52555595509403,
+  "insample_rmse": 6.631158093766303,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

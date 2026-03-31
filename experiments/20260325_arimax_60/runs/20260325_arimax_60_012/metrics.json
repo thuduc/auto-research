@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_arimax_60",
+  "trial_id": "20260325_arimax_60_012",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 0) trend=t with mortgage_rate, unemployment_rate, per_capita_income",
+  "gof_composite": -0.602022419067728,
+  "gof_insample": -1.8475798092828541,
+  "gof_validation_near": 0.23455254670454329,
+  "gof_validation_far": -0.014844958960223309,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 27.89084122397473,
+  "mae": 20.380265601337122,
+  "theil_u": 0.7654474532954567,
+  "directional_accuracy": 0.8195488721804511,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 27.89084122397473,
+  "rmse_3yr": 116.40594339829501,
+  "insample_rmse": 19.003220572488896,
+  "naive_insample_rmse": 6.6734637289322345
+}

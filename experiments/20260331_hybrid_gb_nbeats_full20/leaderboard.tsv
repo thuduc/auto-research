@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_hybrid_gb_nbeats_full20	Horizon Hybrid	True	20260331_hybrid_gb_nbeats_full20_002		0.5560582723026382	0.7172739766270937	0.507658456211203	0.3708992576303092	17.93959829203268	72.15985531734988	16	2	smooth_blend_9_16 hybrid of Gradient Boosting (near) and N-BEATS (far)

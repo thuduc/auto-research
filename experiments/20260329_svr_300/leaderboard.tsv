@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_svr_300	Support Vector Regression	True	20260329_svr_300_016		-0.0164887198690686	-0.2474478914630804	0.1198595761985548	0.1591527892000181	32.06994380785098	96.4478484745898	4	18	Support Vector Regression kernel=rbf C=50.0 epsilon=0.1 gamma=scale lags=[1, 2, 4] with no exogenous variables

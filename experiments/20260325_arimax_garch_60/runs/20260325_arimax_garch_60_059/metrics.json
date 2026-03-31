@@ -1,0 +1,38 @@
+{
+  "experiment_id": "20260325_arimax_garch_60",
+  "trial_id": "20260325_arimax_garch_60_059",
+  "model_class": "ARIMAX-GARCH",
+  "champion_eligible": true,
+  "description": "ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=t with mortgage_rate, term_spread",
+  "gof_composite": -0.5951605851924401,
+  "gof_insample": -1.7793780287560383,
+  "gof_validation_near": 0.1794506319527719,
+  "gof_validation_far": -0.022399680109013387,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 29.89860641917153,
+  "mae": 21.07005378144447,
+  "theil_u": 0.8205493680472281,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.89860641917153,
+  "rmse_3yr": 117.27249393359743,
+  "insample_rmse": 18.548078463894594,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

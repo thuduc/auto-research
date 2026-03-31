@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260331_ensemble_top4_full20",
+  "trial_id": "20260331_ensemble_top4_full20_001",
+  "model_class": "Model Ensemble",
+  "champion_eligible": true,
+  "dependency_scope": "ensemble",
+  "method": "simple_average",
+  "components": [
+    {
+      "component_name": "Gradient Boosting",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091",
+      "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "component_name": "XGBoost",
+      "experiment_id": "20260330_xgboost_full20_300",
+      "trial_id": "20260330_xgboost_full20_300_068",
+      "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "component_name": "N-BEATS",
+      "experiment_id": "20260330_nbeats_full20_300",
+      "trial_id": "20260330_nbeats_full20_300_043",
+      "description": "N-BEATS lookback=4 stack_width=64 n_blocks=2 n_layers=2 epochs=75 learning_rate=0.01 with housing_inventory"
+    },
+    {
+      "component_name": "Transformer",
+      "experiment_id": "20260330_transformer_full20_300",
+      "trial_id": "20260330_transformer_full20_300_014",
+      "description": "Transformer lookback=8 model_dim=16 num_heads=2 num_layers=2 feedforward_dim=32 epochs=75 learning_rate=0.01 with consumer_confidence"
+    }
+  ],
+  "metadata": {
+    "weights": {
+      "Gradient Boosting__y_pred": 0.25,
+      "XGBoost__y_pred": 0.25,
+      "N-BEATS__y_pred": 0.25,
+      "Transformer__y_pred": 0.25
+    }
+  }
+}

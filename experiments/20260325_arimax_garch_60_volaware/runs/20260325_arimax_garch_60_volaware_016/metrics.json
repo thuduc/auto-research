@@ -1,0 +1,43 @@
+{
+  "experiment_id": "20260325_arimax_garch_60_volaware",
+  "trial_id": "20260325_arimax_garch_60_volaware_016",
+  "model_class": "ARIMAX-GARCH",
+  "champion_eligible": true,
+  "description": "ARIMAX-GARCH(1, 1, 1) trend=t GARCH(1,1) dist=normal with no exogenous variables",
+  "gof_composite": -1.0952045719560726,
+  "gof_insample": -1.5962982008457818,
+  "gof_validation_near": -0.10838879030557069,
+  "gof_validation_far": -1.7018773248819246,
+  "gof_diagnostic": 0.5,
+  "rmse": 40.386698827925386,
+  "mae": 25.14856173592864,
+  "theil_u": 1.1083887903055707,
+  "directional_accuracy": 0.8421052631578947,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "arch_lm",
+    "cusum",
+    "forecast_plausibility",
+    "std_resid_unit_variance"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "adf",
+    "volatility_coverage_90"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 40.386698827925386,
+  "rmse_3yr": 309.9139195326775,
+  "insample_rmse": 17.326301872836343,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": -1.0910797253617828,
+  "gof_volatility_far": -3.7078830626592127,
+  "gof_volatility_weighted": -1.8761207265510116,
+  "validation_coverage_90": 0.2175,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

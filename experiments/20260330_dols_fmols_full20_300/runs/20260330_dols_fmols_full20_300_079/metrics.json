@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_full20_300",
+  "trial_id": "20260330_dols_fmols_full20_300_079",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "DOLS trend=ct leads=2 lags=1 with per_capita_income",
+  "gof_composite": -3.1029863619738647,
+  "gof_insample": -6.735194926040647,
+  "gof_validation_near": -1.2627722845366103,
+  "gof_validation_far": -0.06530156551289767,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 82.44932064547736,
+  "mae": 68.55972381440166,
+  "theil_u": 2.2627722845366103,
+  "directional_accuracy": 0.7142857142857143,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 82.44932064547736,
+  "rmse_3yr": 122.19347659199427,
+  "insample_rmse": 52.44842235215405,
+  "naive_insample_rmse": 6.78049135847704,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

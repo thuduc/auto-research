@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_tcn_300	TCN	True	20260329_tcn_300_029		0.3450891695257084	0.2560616819645751	0.4987418909607003	0.231810010468666	18.264493886882853	88.11383418816999	7	80	TCN lookback=8 channels=16 num_blocks=2 kernel_size=2 epochs=75 learning_rate=0.01 with mortgage_rate, unemployment_rate

@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20260325_threshold_var_60",
+  "trial_id": "20260325_threshold_var_60_034",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Threshold VAR(2) delay=1 q=0.5 threshold=building_permits with mortgage_rate, building_permits",
+    "threshold_var": {
+      "lags": 2,
+      "trend": "c",
+      "delay": 1,
+      "threshold_variable": "building_permits",
+      "threshold_quantile": 0.5,
+      "ridge_alpha": 0.1,
+      "endogenous": [
+        "hpi",
+        "mortgage_rate",
+        "building_permits"
+      ],
+      "regime_count": 2
+    }
+  }
+}

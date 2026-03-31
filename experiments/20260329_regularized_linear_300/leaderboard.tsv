@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_regularized_linear_300	Ridge / Lasso / Elastic Net	True	20260329_regularized_linear_300_021		-0.0609706756344805	0.0415253946319917	-0.1062514009234731	-0.4915078433159665	40.30881812215879	171.08069173939353	5	60	Lasso alpha=1.0 lags=[1, 4, 8] with no exogenous variables

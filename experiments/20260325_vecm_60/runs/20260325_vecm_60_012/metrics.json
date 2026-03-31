@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_012",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=4) deterministic=ci with real_gdp",
+  "gof_composite": -0.037770894950892794,
+  "gof_insample": 0.46008614813481363,
+  "gof_validation_near": -0.17471380061016784,
+  "gof_validation_far": -1.4043701599417302,
+  "gof_diagnostic": 0.5,
+  "rmse": 42.80340336279563,
+  "mae": 27.40648473437199,
+  "theil_u": 1.1747138006101678,
+  "directional_accuracy": 0.5338345864661654,
+  "n_params": 21,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 42.80340336279563,
+  "rmse_3yr": 275.7889018175598,
+  "insample_rmse": 3.6030955071704125,
+  "naive_insample_rmse": 6.6734637289322345
+}

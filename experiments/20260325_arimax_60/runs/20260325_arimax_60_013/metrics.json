@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_arimax_60",
+  "trial_id": "20260325_arimax_60_013",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 0) trend=t with mortgage_rate, housing_starts, term_spread",
+  "gof_composite": -0.6032988714021085,
+  "gof_insample": -1.7767538185387566,
+  "gof_validation_near": 0.16096987175171085,
+  "gof_validation_far": -0.040531041617078545,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 30.571995488854917,
+  "mae": 22.012532507264584,
+  "theil_u": 0.8390301282482892,
+  "directional_accuracy": 0.8145363408521303,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.571995488854917,
+  "rmse_3yr": 119.35221874555718,
+  "insample_rmse": 18.53056589219247,
+  "naive_insample_rmse": 6.6734637289322345
+}

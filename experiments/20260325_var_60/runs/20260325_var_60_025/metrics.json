@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_var_60",
+  "trial_id": "20260325_var_60_025",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with mortgage_rate, unemployment_rate",
+  "gof_composite": -0.3778681754950418,
+  "gof_insample": 0.12956075933251376,
+  "gof_validation_near": -0.38144657135264093,
+  "gof_validation_far": -2.1967967505863757,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 50.33618808857493,
+  "mae": 32.01340791549981,
+  "theil_u": 1.381446571352641,
+  "directional_accuracy": 0.5012531328320802,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 50.33618808857493,
+  "rmse_3yr": 366.6827512114552,
+  "insample_rmse": 5.808844700833785,
+  "naive_insample_rmse": 6.6734637289322345
+}

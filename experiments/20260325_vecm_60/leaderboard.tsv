@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_vecm_60	VECM	True	20260325_vecm_60_016		0.2345571216970301	0.2909827069190299	0.2726626274973175	-0.0706747601865089	26.50221264098324	122.8097991046323	9	60	VECM(k_ar_diff=1) deterministic=ci with building_permits

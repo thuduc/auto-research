@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_026",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "VAR(2) trend=c with m2_money_supply",
+    "var": {
+      "lags": 2,
+      "trend": "c",
+      "endogenous": [
+        "hpi",
+        "m2_money_supply"
+      ]
+    }
+  }
+}

@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_markov_switching_full20_300",
+  "trial_id": "20260330_markov_switching_full20_300_015",
+  "model_class": "Markov-Switching AR / ARX",
+  "champion_eligible": true,
+  "description": "Markov-Switching AR / ARX with consumer_confidence, personal_consumption",
+  "gof_composite": -6.415267107416511,
+  "gof_insample": -15.24831260056277,
+  "gof_validation_near": -0.6203302163731654,
+  "gof_validation_far": -0.7540813716433976,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 59.04046398052182,
+  "mae": 47.48254553668651,
+  "theil_u": 1.6203302163731654,
+  "directional_accuracy": 0.5012531328320802,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 59.04046398052182,
+  "rmse_3yr": 201.198710266765,
+  "insample_rmse": 108.43252479620823,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "bfgs_basic",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

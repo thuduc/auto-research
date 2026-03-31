@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_005",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=2) with unemployment_rate",
+  "gof_composite": -3.467777163463106,
+  "gof_insample": -2.354610461356364,
+  "gof_validation_near": -6.392896328064423,
+  "gof_validation_far": -2.0339062050978587,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 269.37720778040307,
+  "mae": 236.47159875880575,
+  "theil_u": 7.392896328064423,
+  "directional_accuracy": 0.08020050125313283,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 269.37720778040307,
+  "rmse_3yr": 347.998687748519,
+  "insample_rmse": 22.386871238558324,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

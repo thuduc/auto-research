@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20260330_dols_fmols_full20_300",
+  "trial_id": "20260330_dols_fmols_full20_300_003",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "DOLS trend=c leads=1 lags=2 with consumer_confidence",
+    "dols_fmols": {
+      "method": "dols",
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "trend": "c",
+      "leads": 1,
+      "lags": 2
+    }
+  }
+}

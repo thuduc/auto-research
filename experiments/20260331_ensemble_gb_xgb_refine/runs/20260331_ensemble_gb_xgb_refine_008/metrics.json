@@ -1,0 +1,40 @@
+{
+  "experiment_id": "20260331_ensemble_gb_xgb_refine",
+  "trial_id": "20260331_ensemble_gb_xgb_refine_008",
+  "model_class": "Model Ensemble",
+  "champion_eligible": true,
+  "description": "near/far 60/40-40/60 ensemble of Gradient Boosting, XGBoost",
+  "gof_composite": 0.640974684343802,
+  "gof_insample": 0.9644028298325781,
+  "gof_validation_near": 0.41561971130743847,
+  "gof_validation_far": 0.09275546746555974,
+  "gof_diagnostic": 0.9583333333333334,
+  "rmse": 21.29324198045704,
+  "mae": 16.425769213543088,
+  "theil_u": 0.5843802886925615,
+  "directional_accuracy": 0.47619047619047616,
+  "n_params": 25,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_mean",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [],
+  "error_summary": "",
+  "rmse_1yr": 21.29324198045704,
+  "rmse_3yr": 104.06383238166725,
+  "insample_rmse": NaN,
+  "naive_insample_rmse": NaN,
+  "component_models": [
+    {
+      "component_name": "Gradient Boosting",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091"
+    },
+    {
+      "component_name": "XGBoost",
+      "experiment_id": "20260330_xgboost_full20_300",
+      "trial_id": "20260330_xgboost_full20_300_068"
+    }
+  ]
+}

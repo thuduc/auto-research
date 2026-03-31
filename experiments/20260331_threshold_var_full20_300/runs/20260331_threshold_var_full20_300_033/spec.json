@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260331_threshold_var_full20_300",
+  "trial_id": "20260331_threshold_var_full20_300_033",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Threshold VAR(1) delay=1 q=0.6 threshold=fed_funds with fed_funds",
+    "threshold_var": {
+      "lags": 1,
+      "trend": "c",
+      "delay": 1,
+      "threshold_variable": "fed_funds",
+      "threshold_quantile": 0.6,
+      "ridge_alpha": 0.1,
+      "endogenous": [
+        "hpi",
+        "fed_funds"
+      ],
+      "regime_count": 2
+    }
+  }
+}

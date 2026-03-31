@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_006",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with treasury_10y",
+  "gof_composite": 0.0933460499487672,
+  "gof_insample": 0.4433619160391987,
+  "gof_validation_near": 0.038952796532088496,
+  "gof_validation_far": -1.0953257461320662,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 35.01796869957337,
+  "mae": 19.715555899878666,
+  "theil_u": 0.9610472034679115,
+  "directional_accuracy": 0.631578947368421,
+  "n_params": 18,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 35.01796869957337,
+  "rmse_3yr": 240.34052497549973,
+  "insample_rmse": 3.7147040634547435,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

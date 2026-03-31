@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_dynamic_factor_full20_300	Dynamic Factor	True	20260331_dynamic_factor_full20_300_007		-0.5826124797440921	-1.7786378363081885	0.2919975764052182	-0.044598868639843	25.797699238081147	119.81881143834757	5	47	Dynamic Factor(k_factors=1, factor_order=1) with fed_funds

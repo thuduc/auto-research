@@ -1,0 +1,61 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_056",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=2) with mortgage_rate, unemployment_rate, housing_inventory",
+  "gof_composite": -3.160753325769721e+55,
+  "gof_insample": -3985610.09176997,
+  "gof_validation_near": -9.371652537816291e+42,
+  "gof_validation_far": -2.107168883846262e+56,
+  "gof_diagnostic": 0.0,
+  "rmse": 3.4147774848968254e+44,
+  "mae": 4.320857102629563e+43,
+  "theil_u": 9.371652537816291e+42,
+  "directional_accuracy": 0.05764411027568922,
+  "n_params": 20,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 3.4147774848968254e+44,
+  "rmse_3yr": 2.416989705254775e+58,
+  "insample_rmse": 26597831.0585569,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

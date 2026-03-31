@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_300",
+  "trial_id": "20260330_uecm_300_020",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=1, distributed_lags=1) trend=ct with unemployment_rate",
+  "gof_composite": -22.393321528071553,
+  "gof_insample": -54.85832152966997,
+  "gof_validation_near": -0.48806476556086387,
+  "gof_validation_far": -2.051611178857907,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 54.22106759721526,
+  "mae": 34.235823564351676,
+  "theil_u": 1.4880647655608639,
+  "directional_accuracy": 0.8045112781954887,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 54.22106759721526,
+  "rmse_3yr": 350.02950453012085,
+  "insample_rmse": 372.7684826872871,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

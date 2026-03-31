@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_034",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=1) with mortgage_rate, housing_starts",
+  "gof_composite": -4.177247044621821,
+  "gof_insample": -7.509808240023171,
+  "gof_validation_near": -2.636415077742004,
+  "gof_validation_far": -1.8927453649078991,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 132.5011601006942,
+  "mae": 90.75865988476377,
+  "theil_u": 3.636415077742004,
+  "directional_accuracy": 0.49624060150375937,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 132.5011601006942,
+  "rmse_3yr": 331.8070905709128,
+  "insample_rmse": 56.78989662996329,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

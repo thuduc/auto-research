@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_bvar_refine_20",
+  "trial_id": "20260325_bvar_refine_20_013",
+  "model_class": "BVAR",
+  "champion_eligible": true,
+  "description": "BVAR(2) prior=minnesota lambda=0.15 trend=c with per_capita_income",
+  "gof_composite": -0.10351118181987966,
+  "gof_insample": 0.27958336942951234,
+  "gof_validation_near": -0.22594080194347543,
+  "gof_validation_far": -1.2417683260764547,
+  "gof_diagnostic": 0.5,
+  "rmse": 44.66997716144949,
+  "mae": 29.046791943194748,
+  "theil_u": 1.2259408019434754,
+  "directional_accuracy": 0.8345864661654135,
+  "n_params": 11,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 44.66997716144949,
+  "rmse_3yr": 257.13795449574127,
+  "insample_rmse": 4.807674253831722,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

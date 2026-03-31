@@ -1,0 +1,29 @@
+{
+  "experiment_id": "20260325_arimax_60",
+  "trial_id": "20260325_arimax_60_020",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "ARIMAX(1, 1, 1) trend=t with mortgage_rate",
+    "arimax": {
+      "order": [
+        1,
+        1,
+        1
+      ],
+      "trend": "t",
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "include_intercept": false,
+      "enforce_stationarity": false,
+      "enforce_invertibility": false,
+      "maxiter": 200
+    }
+  }
+}

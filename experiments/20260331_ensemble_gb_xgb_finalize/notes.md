@@ -1,0 +1,5 @@
+Finalized ensemble champion
+- source_experiment_id: 20260331_ensemble_gb_xgb_refine
+- source_trial_id: 20260331_ensemble_gb_xgb_refine_007
+- method: weighted_average
+- components: [{"component_name": "Gradient Boosting", "experiment_id": "20260330_gradient_boosting_full20_300", "trial_id": "20260330_gradient_boosting_full20_300_091", "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence"}, {"component_name": "XGBoost", "experiment_id": "20260330_xgboost_full20_300", "trial_id": "20260330_xgboost_full20_300_068", "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence"}]

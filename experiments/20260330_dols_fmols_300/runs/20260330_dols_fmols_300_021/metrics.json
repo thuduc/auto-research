@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_300",
+  "trial_id": "20260330_dols_fmols_300_021",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "FMOLS trend=c with mortgage_rate, unemployment_rate",
+  "gof_composite": -6.418695090303551,
+  "gof_insample": -14.941949471558479,
+  "gof_validation_near": -1.2831026989393957,
+  "gof_validation_far": -0.14267190415199194,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 83.1901061268118,
+  "mae": 73.93857483309918,
+  "theil_u": 2.2831026989393957,
+  "directional_accuracy": 0.6115288220551378,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 83.1901061268118,
+  "rmse_3yr": 131.06810042572442,
+  "insample_rmse": 106.38802156691591,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

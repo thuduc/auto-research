@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260325_state_space_refine_20",
+  "trial_id": "20260325_state_space_refine_20_008",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local linear trend, no_cycle) with mortgage_rate, fed_funds",
+  "gof_composite": -0.6630432349897208,
+  "gof_insample": -1.8187248193178198,
+  "gof_validation_near": 0.15284425633169574,
+  "gof_validation_far": -0.40318245604838543,
+  "gof_diagnostic": 0.7142857142857143,
+  "rmse": 30.868071004621566,
+  "mae": 20.680451493951807,
+  "theil_u": 0.8471557436683043,
+  "directional_accuracy": 0.518796992481203,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.868071004621566,
+  "rmse_3yr": 160.9494889974134,
+  "insample_rmse": 18.810657843558538,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

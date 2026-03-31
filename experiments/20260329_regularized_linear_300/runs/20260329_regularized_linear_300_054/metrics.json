@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260329_regularized_linear_300",
+  "trial_id": "20260329_regularized_linear_300_054",
+  "model_class": "Ridge / Lasso / Elastic Net",
+  "champion_eligible": true,
+  "description": "Elastic Net alpha=0.01 lags=[1, 2, 4] with mortgage_rate l1_ratio=0.75",
+  "gof_composite": -0.26087609012010843,
+  "gof_insample": 0.10246509993088204,
+  "gof_validation_near": -0.3712420445824336,
+  "gof_validation_far": -1.4318970489716825,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 49.964362648842496,
+  "mae": 33.18213791630564,
+  "theil_u": 1.3712420445824336,
+  "directional_accuracy": 0.7418546365914787,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 49.964362648842496,
+  "rmse_3yr": 278.9463235084896,
+  "insample_rmse": 5.989666601062076,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_vecm_refine2_20",
+  "trial_id": "20260325_vecm_refine2_20_015",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=2) deterministic=li with mortgage_rate, building_permits",
+  "gof_composite": -0.03935647066267122,
+  "gof_insample": 0.3191138955357724,
+  "gof_validation_near": -0.20883438913126895,
+  "gof_validation_far": -0.8482888400957962,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 44.04666560478688,
+  "mae": 30.327391604269867,
+  "theil_u": 1.208834389131269,
+  "directional_accuracy": 0.3383458646616541,
+  "n_params": 25,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 44.04666560478688,
+  "rmse_3yr": 212.00460642217607,
+  "insample_rmse": 4.543868721675987,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

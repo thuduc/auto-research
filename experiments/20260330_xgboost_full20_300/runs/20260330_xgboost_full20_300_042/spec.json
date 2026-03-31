@@ -1,0 +1,30 @@
+{
+  "experiment_id": "20260330_xgboost_full20_300",
+  "trial_id": "20260330_xgboost_full20_300_042",
+  "model_class": "XGBoost",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "XGBoost n_estimators=200 learning_rate=0.05 max_depth=4 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4, 8] with no exogenous variables",
+    "xgboost": {
+      "exogenous": [],
+      "target_lags": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "max_depth": 4,
+      "subsample": 0.8,
+      "colsample_bytree": 0.8,
+      "reg_lambda": 1.0,
+      "min_child_weight": 1.0
+    }
+  }
+}

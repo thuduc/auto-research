@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20260330_ardl_300",
+  "trial_id": "20260330_ardl_300_071",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "ARDL(ar_lags=4, distributed_lags=4) trend=c with mortgage_rate, unemployment_rate",
+    "ardl": {
+      "exogenous": [
+        "mortgage_rate",
+        "unemployment_rate"
+      ],
+      "ar_lags": 4,
+      "distributed_lags": 4,
+      "trend": "c"
+    }
+  }
+}

@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_ensemble_top5",
+  "trial_id": "20260325_ensemble_top5_002",
+  "model_class": "Econometric Ensemble",
+  "champion_eligible": true,
+  "dependency_scope": "ensemble",
+  "method": "inverse_rmse",
+  "components": [
+    {
+      "component_name": "VECM",
+      "experiment_id": "20260325_vecm_refine2_20",
+      "trial_id": "20260325_vecm_refine2_20_001",
+      "description": "VECM(k_ar_diff=1) deterministic=co with building_permits"
+    },
+    {
+      "component_name": "VAR",
+      "experiment_id": "20260325_var_refine2_20",
+      "trial_id": "20260325_var_refine2_20_001",
+      "description": "VAR(4) trend=ct with term_spread"
+    },
+    {
+      "component_name": "BVAR",
+      "experiment_id": "20260325_bvar_refine_20",
+      "trial_id": "20260325_bvar_refine_20_004",
+      "description": "BVAR(2) prior=minnesota lambda=0.3 trend=c with building_permits"
+    },
+    {
+      "component_name": "State-Space",
+      "experiment_id": "20260325_state_space_60_recovery",
+      "trial_id": "20260325_state_space_60_recovery_012",
+      "description": "State-Space(local level, no_cycle) with mortgage_rate, unemployment_rate, per_capita_income"
+    },
+    {
+      "component_name": "ARIMAX-GARCH",
+      "experiment_id": "20260325_arimax_garch_60_volaware",
+      "trial_id": "20260325_arimax_garch_60_volaware_012",
+      "description": "ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=normal with mortgage_rate, unemployment_rate, per_capita_income"
+    }
+  ],
+  "metadata": {
+    "weights": {
+      "VECM__y_pred": 0.19859363660573337,
+      "VAR__y_pred": 0.1576508298240327,
+      "BVAR__y_pred": 0.13631906205751795,
+      "State-Space__y_pred": 0.2973695565455537,
+      "ARIMAX-GARCH__y_pred": 0.21006691496716223
+    }
+  }
+}

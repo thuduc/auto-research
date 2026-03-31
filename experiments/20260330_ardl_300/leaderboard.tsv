@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_ardl_300	ARDL	True	20260330_ardl_300_035		0.0666419155663849	0.4575050685004822	-0.0628196193949832	-1.1053454431609016	38.726281113941845	241.48981608140585	10	75	ARDL(ar_lags=4, distributed_lags=4) trend=c with mortgage_rate

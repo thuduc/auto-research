@@ -1,0 +1,23 @@
+{
+  "experiment_id": "20260330_dols_fmols_full20_300",
+  "trial_id": "20260330_dols_fmols_full20_300_026",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "FMOLS trend=ct with fed_funds",
+    "dols_fmols": {
+      "method": "fmols",
+      "exogenous": [
+        "fed_funds"
+      ],
+      "trend": "ct",
+      "leads": 0,
+      "lags": 0
+    }
+  }
+}

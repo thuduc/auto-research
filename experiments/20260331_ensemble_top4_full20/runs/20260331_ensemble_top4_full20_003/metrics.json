@@ -1,0 +1,51 @@
+{
+  "experiment_id": "20260331_ensemble_top4_full20",
+  "trial_id": "20260331_ensemble_top4_full20_003",
+  "model_class": "Model Ensemble",
+  "champion_eligible": true,
+  "description": "ridge_stacking ensemble of Gradient Boosting, XGBoost, N-BEATS, Transformer",
+  "gof_composite": 0.44834679470700034,
+  "gof_insample": 0.7294544034945645,
+  "gof_validation_near": 0.18796150376091292,
+  "gof_validation_far": 0.35519004661903375,
+  "gof_diagnostic": 0.375,
+  "rmse": 29.588493199437764,
+  "mae": 23.665843967643585,
+  "theil_u": 0.8120384962390871,
+  "directional_accuracy": 0.7042606516290727,
+  "n_params": 40,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_mean"
+  ],
+  "diagnostics_failed": [
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.588493199437764,
+  "rmse_3yr": 73.96175176632468,
+  "insample_rmse": NaN,
+  "naive_insample_rmse": NaN,
+  "component_models": [
+    {
+      "component_name": "Gradient Boosting",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091"
+    },
+    {
+      "component_name": "XGBoost",
+      "experiment_id": "20260330_xgboost_full20_300",
+      "trial_id": "20260330_xgboost_full20_300_068"
+    },
+    {
+      "component_name": "N-BEATS",
+      "experiment_id": "20260330_nbeats_full20_300",
+      "trial_id": "20260330_nbeats_full20_300_043"
+    },
+    {
+      "component_name": "Transformer",
+      "experiment_id": "20260330_transformer_full20_300",
+      "trial_id": "20260330_transformer_full20_300_014"
+    }
+  ]
+}

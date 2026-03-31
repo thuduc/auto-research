@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260330_regularized_linear_full20_300",
+  "trial_id": "20260330_regularized_linear_full20_300_016",
+  "model_class": "Ridge / Lasso / Elastic Net",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Ridge alpha=0.01 lags=[1, 4, 8] with no exogenous variables",
+    "regularized_linear": {
+      "model_type": "ridge",
+      "exogenous": [],
+      "target_lags": [
+        1,
+        4,
+        8
+      ],
+      "alpha": 0.01,
+      "l1_ratio": 0.5,
+      "fit_intercept": true,
+      "max_iter": 5000
+    }
+  }
+}

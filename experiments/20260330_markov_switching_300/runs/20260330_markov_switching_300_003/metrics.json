@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_markov_switching_300",
+  "trial_id": "20260330_markov_switching_300_003",
+  "model_class": "Markov-Switching AR / ARX",
+  "champion_eligible": true,
+  "description": "Markov-Switching AR / ARX with unemployment_rate",
+  "gof_composite": -6.1813662919759915,
+  "gof_insample": -13.892362231172553,
+  "gof_validation_near": -1.5301156934748557,
+  "gof_validation_far": -0.6877774738432261,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 92.19059359487552,
+  "mae": 82.1335368539793,
+  "theil_u": 2.5301156934748557,
+  "directional_accuracy": 0.49624060150375937,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 92.19059359487552,
+  "rmse_3yr": 193.593442381983,
+  "insample_rmse": 99.38363918785036,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "bfgs_basic",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

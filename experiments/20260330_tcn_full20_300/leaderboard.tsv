@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_tcn_full20_300	TCN	True	20260330_tcn_full20_300_009		0.3477831944081178	0.4008350025851325	0.3871813997658244	0.0129046897068414	22.32945737116777	113.22297046874476	7	49	TCN lookback=4 channels=16 num_blocks=2 kernel_size=2 epochs=75 learning_rate=0.01 with consumer_confidence

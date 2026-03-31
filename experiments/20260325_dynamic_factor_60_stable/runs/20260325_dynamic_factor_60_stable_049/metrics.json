@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_049",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with mortgage_rate, real_gdp, building_permits",
+  "gof_composite": -4.823632105166286e+42,
+  "gof_insample": -10.811727842702732,
+  "gof_validation_near": -7.734958245211721e+31,
+  "gof_validation_far": -3.215754736759476e+43,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 2.818410216958452e+33,
+  "mae": 3.766300304703682e+32,
+  "theil_u": 7.734958245211721e+31,
+  "directional_accuracy": 0.18045112781954886,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 2.818410216958452e+33,
+  "rmse_3yr": 3.6885729250067106e+45,
+  "insample_rmse": 78.82513733429568,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

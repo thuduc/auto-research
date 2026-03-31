@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20260330_lstm_gru_full20_300",
+  "trial_id": "20260330_lstm_gru_full20_300_058",
+  "model_class": "LSTM / GRU",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "GRU lookback=4 hidden_size=16 num_layers=2 epochs=75 learning_rate=0.01 with fed_funds",
+    "lstm_gru": {
+      "cell_type": "gru",
+      "exogenous": [
+        "fed_funds"
+      ],
+      "lookback": 4,
+      "hidden_size": 16,
+      "num_layers": 2,
+      "epochs": 75,
+      "learning_rate": 0.01,
+      "dropout": 0.0
+    }
+  }
+}

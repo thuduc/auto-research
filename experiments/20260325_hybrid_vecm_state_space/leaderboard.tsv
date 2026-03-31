@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_hybrid_vecm_state_space	Horizon Hybrid	True	20260325_hybrid_vecm_state_space_001		0.1429291490362466	-0.2480439812057765	0.4592748936671479	0.0498130487098938	19.702564848334763	108.98946434438545	15	2	hard_switch_12 hybrid of State-Space (near) and VECM (far)

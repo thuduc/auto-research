@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_tcn_300",
+  "trial_id": "20260329_tcn_300_046",
+  "model_class": "TCN",
+  "champion_eligible": true,
+  "description": "TCN lookback=8 channels=16 num_blocks=3 kernel_size=2 epochs=75 learning_rate=0.01 with mortgage_rate, per_capita_income",
+  "gof_composite": -0.14875687619483913,
+  "gof_insample": 0.2037654466389629,
+  "gof_validation_near": -0.5389821212640826,
+  "gof_validation_far": -0.7219065271644136,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 56.0763587440459,
+  "mae": 42.05657381184895,
+  "theil_u": 1.5389821212640826,
+  "directional_accuracy": 0.5012531328320802,
+  "n_params": 7,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "arch_lm",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 56.0763587440459,
+  "rmse_3yr": 197.5081533080874,
+  "insample_rmse": 5.3136424115774386,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

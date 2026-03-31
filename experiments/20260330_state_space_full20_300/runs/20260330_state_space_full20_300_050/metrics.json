@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260330_state_space_full20_300",
+  "trial_id": "20260330_state_space_full20_300_050",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, no_cycle) with new_home_sales, population",
+  "gof_composite": -0.5546903171987924,
+  "gof_insample": -1.8253267743911956,
+  "gof_validation_near": 0.3399472279637473,
+  "gof_validation_far": -0.004559962483218438,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 24.050543228081803,
+  "mae": 19.790098181689096,
+  "theil_u": 0.6600527720362527,
+  "directional_accuracy": 0.5989974937343359,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 24.050543228081803,
+  "rmse_3yr": 115.22622160218879,
+  "insample_rmse": 18.85471575128075,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

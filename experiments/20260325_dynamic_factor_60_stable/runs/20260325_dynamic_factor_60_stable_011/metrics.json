@@ -1,0 +1,48 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_011",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=2) with real_gdp",
+  "gof_composite": -5.885697832638645,
+  "gof_insample": -10.003138034367982,
+  "gof_validation_near": -4.359289816885602,
+  "gof_validation_far": -2.391274553209946,
+  "gof_diagnostic": 0.0,
+  "rmse": 195.27806998702587,
+  "mae": 178.94291230455562,
+  "theil_u": 5.359289816885602,
+  "directional_accuracy": 0.15538847117794485,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 195.27806998702587,
+  "rmse_3yr": 388.98997349654064,
+  "insample_rmse": 73.42904257678946,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

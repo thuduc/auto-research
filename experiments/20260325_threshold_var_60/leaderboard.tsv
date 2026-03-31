@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_threshold_var_60	Threshold VAR / SETAR	True	20260325_threshold_var_60_039		-0.2756990304101008	0.3290270187964558	-0.5354073848384133	-1.688337243790479	55.94610498771467	308.36082918205483	27	60	Threshold VAR(1) delay=1 q=0.6 threshold=housing_inventory with mortgage_rate, housing_inventory

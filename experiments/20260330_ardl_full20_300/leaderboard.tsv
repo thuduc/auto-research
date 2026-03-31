@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_ardl_full20_300	ARDL	True	20260330_ardl_full20_300_001		-136474069044.60504	0.0799507832662834	-13155.61693680615	-909827096267.9185	479391.6453040671	104360060653034.12	2	41	ARDL(ar_lags=1, distributed_lags=1) trend=c with no exogenous variables

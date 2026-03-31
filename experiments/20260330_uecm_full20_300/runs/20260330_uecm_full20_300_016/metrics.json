@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_full20_300",
+  "trial_id": "20260330_uecm_full20_300_016",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=4, distributed_lags=2) trend=ct with consumer_confidence",
+  "gof_composite": -22.729558222569644,
+  "gof_insample": -55.39248853893766,
+  "gof_validation_near": -0.284918836353524,
+  "gof_validation_far": -3.342750952281804,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 46.81897770531549,
+  "mae": 28.98955968000921,
+  "theil_u": 1.284918836353524,
+  "directional_accuracy": 0.6466165413533834,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 46.81897770531549,
+  "rmse_3yr": 498.1273416011728,
+  "insample_rmse": 376.3332268488272,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

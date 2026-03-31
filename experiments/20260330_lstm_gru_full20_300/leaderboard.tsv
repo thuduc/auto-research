@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_lstm_gru_full20_300	LSTM / GRU	True	20260330_lstm_gru_full20_300_032		0.33572758707022	0.237552210830806	0.4925214664725962	0.1221612631499265	18.49114938230126	100.6908941236664	8	72	GRU lookback=8 hidden_size=32 num_layers=2 epochs=75 learning_rate=0.01 with consumer_confidence

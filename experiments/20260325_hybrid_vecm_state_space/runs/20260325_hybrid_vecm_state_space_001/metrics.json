@@ -1,0 +1,40 @@
+{
+  "experiment_id": "20260325_hybrid_vecm_state_space",
+  "trial_id": "20260325_hybrid_vecm_state_space_001",
+  "model_class": "Horizon Hybrid",
+  "champion_eligible": true,
+  "description": "hard_switch_12 hybrid of State-Space (near) and VECM (far)",
+  "gof_composite": 0.14292914903624665,
+  "gof_insample": -0.24804398120577656,
+  "gof_validation_near": 0.4592748936671479,
+  "gof_validation_far": 0.04981304870989389,
+  "gof_diagnostic": 0.7392857142857143,
+  "rmse": 19.702564848334763,
+  "mae": 16.39243219268985,
+  "theil_u": 0.5407251063328521,
+  "directional_accuracy": 0.8546365914786967,
+  "n_params": 15,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_weighted",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [],
+  "error_summary": "",
+  "rmse_1yr": 19.702564848334763,
+  "rmse_3yr": 108.98946434438545,
+  "insample_rmse": NaN,
+  "naive_insample_rmse": NaN,
+  "components": [
+    {
+      "role": "long_horizon",
+      "experiment_id": "20260325_vecm_refine2_20",
+      "trial_id": "20260325_vecm_refine2_20_001"
+    },
+    {
+      "role": "near_horizon",
+      "experiment_id": "20260325_state_space_refine_20",
+      "trial_id": "20260325_state_space_refine_20_001"
+    }
+  ]
+}

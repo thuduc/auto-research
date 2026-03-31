@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_vecm_full20_300",
+  "trial_id": "20260331_vecm_full20_300_008",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=2) deterministic=ci with fed_funds",
+  "gof_composite": -0.18901108807083006,
+  "gof_insample": 0.27704888341155365,
+  "gof_validation_near": -0.18275925708209262,
+  "gof_validation_far": -1.7946548986003497,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 43.09655810263671,
+  "mae": 27.45648715637342,
+  "theil_u": 1.1827592570820926,
+  "directional_accuracy": 0.5789473684210527,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 43.09655810263671,
+  "rmse_3yr": 320.5558022158839,
+  "insample_rmse": 4.824588054344056,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

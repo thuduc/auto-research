@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_ets_300	ETS	True	20260330_ets_300_003		0.18202215516539616	0.26181533714028793	0.20828590462098662	-0.19291586427598428	28.84792683538465	136.83124239796425	5	3	ETS(error=add, trend=add, damped_trend=True)

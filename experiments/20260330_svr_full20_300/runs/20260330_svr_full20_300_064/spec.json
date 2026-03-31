@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260330_svr_full20_300",
+  "trial_id": "20260330_svr_full20_300_064",
+  "model_class": "Support Vector Regression",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Support Vector Regression kernel=rbf C=1.0 epsilon=0.1 gamma=scale lags=[1, 2, 4, 8] with no exogenous variables",
+    "support_vector_regression": {
+      "exogenous": [],
+      "target_lags": [
+        1,
+        2,
+        4,
+        8
+      ],
+      "kernel": "rbf",
+      "c": 1.0,
+      "epsilon": 0.1,
+      "gamma": "scale"
+    }
+  }
+}

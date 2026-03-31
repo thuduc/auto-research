@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_300",
+  "trial_id": "20260330_dols_fmols_300_008",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "DOLS trend=ct leads=1 lags=2 with mortgage_rate",
+  "gof_composite": -1.8322490757243572,
+  "gof_insample": -3.6206961706524634,
+  "gof_validation_near": -1.182318760433581,
+  "gof_validation_far": 0.008463534113019255,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 79.51781116431552,
+  "mae": 71.21355742653465,
+  "theil_u": 2.182318760433581,
+  "directional_accuracy": 0.6616541353383458,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 79.51781116431552,
+  "rmse_3yr": 113.73238513559906,
+  "insample_rmse": 31.33341693327271,
+  "naive_insample_rmse": 6.7811030580805935,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

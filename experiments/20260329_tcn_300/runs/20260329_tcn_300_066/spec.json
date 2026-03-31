@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20260329_tcn_300",
+  "trial_id": "20260329_tcn_300_066",
+  "model_class": "TCN",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "TCN lookback=4 channels=16 num_blocks=3 kernel_size=2 epochs=75 learning_rate=0.01 with housing_starts",
+    "tcn": {
+      "exogenous": [
+        "housing_starts"
+      ],
+      "lookback": 4,
+      "channels": 16,
+      "num_blocks": 3,
+      "kernel_size": 2,
+      "epochs": 75,
+      "learning_rate": 0.01,
+      "dropout": 0.0
+    }
+  }
+}

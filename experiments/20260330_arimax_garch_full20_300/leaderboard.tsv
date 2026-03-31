@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_arimax_garch_full20_300	ARIMAX-GARCH	True	20260330_arimax_garch_full20_300_072		0.044478951602274	0.3020647323641064	0.1479473096591447	-0.0259339493688692	31.04650253710414	117.67788585458467	9	106	ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=normal with treasury_10y, housing_inventory, new_home_sales

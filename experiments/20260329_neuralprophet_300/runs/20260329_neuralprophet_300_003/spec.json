@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20260329_neuralprophet_300",
+  "trial_id": "20260329_neuralprophet_300_003",
+  "model_class": "NeuralProphet",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "NeuralProphet n_lags=4 epochs=100 learning_rate=0.01 batch_size=16 with no exogenous variables",
+    "neuralprophet": {
+      "exogenous": [],
+      "n_lags": 4,
+      "epochs": 100,
+      "learning_rate": 0.01,
+      "batch_size": 16,
+      "trend_reg": 0.0
+    }
+  }
+}

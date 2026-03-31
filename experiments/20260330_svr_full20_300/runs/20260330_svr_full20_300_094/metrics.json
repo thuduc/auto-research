@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_svr_full20_300",
+  "trial_id": "20260330_svr_full20_300_094",
+  "model_class": "Support Vector Regression",
+  "champion_eligible": true,
+  "description": "Support Vector Regression kernel=rbf C=10.0 epsilon=0.1 gamma=scale lags=[1, 2, 4] with consumer_confidence",
+  "gof_composite": -2.8661647244298103,
+  "gof_insample": -7.115471351684418,
+  "gof_validation_near": -0.13518771331882817,
+  "gof_validation_far": 0.07115232825920048,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 41.36317932115629,
+  "mae": 32.09706095766194,
+  "theil_u": 1.1351877133188282,
+  "directional_accuracy": 0.5639097744360902,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 41.36317932115629,
+  "rmse_3yr": 106.541781133817,
+  "insample_rmse": 54.15830370865462,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

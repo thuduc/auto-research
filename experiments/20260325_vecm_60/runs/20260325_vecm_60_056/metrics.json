@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_056",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=2) deterministic=ci with mortgage_rate, unemployment_rate, housing_inventory",
+  "gof_composite": -0.05121814744054411,
+  "gof_insample": 0.41361756410925066,
+  "gof_validation_near": -0.10581796365330676,
+  "gof_validation_far": -1.5308592387039135,
+  "gof_diagnostic": 0.5,
+  "rmse": 40.29302483676641,
+  "mae": 25.24635153323344,
+  "theil_u": 1.1058179636533068,
+  "directional_accuracy": 0.6491228070175439,
+  "n_params": 41,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 40.29302483676641,
+  "rmse_3yr": 290.2976013118934,
+  "insample_rmse": 3.913201917199847,
+  "naive_insample_rmse": 6.6734637289322345
+}

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_lstm_gru_300	LSTM / GRU	True	20260329_lstm_gru_300_062		0.3591547843075496	0.1308870917350477	0.6139557008217962	0.1683252377282352	14.06641332131242	95.39573946545268	8	79	GRU lookback=8 hidden_size=16 num_layers=2 epochs=75 learning_rate=0.01 with mortgage_rate, unemployment_rate

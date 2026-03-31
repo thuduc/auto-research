@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_vecm_refine_20",
+  "trial_id": "20260325_vecm_refine_20_014",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=1) deterministic=co with housing_starts",
+  "gof_composite": 0.24505012085169608,
+  "gof_insample": 0.30162036047016405,
+  "gof_validation_near": 0.18259441431864454,
+  "gof_validation_far": 0.06995954434736595,
+  "gof_diagnostic": 0.5,
+  "rmse": 29.784055466742608,
+  "mae": 20.055712897261674,
+  "theil_u": 0.8174055856813555,
+  "directional_accuracy": 0.8320802005012531,
+  "n_params": 10,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.784055466742608,
+  "rmse_3yr": 106.6785972408504,
+  "insample_rmse": 4.660611193427129,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

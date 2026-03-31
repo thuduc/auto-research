@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260329_transformer_300",
+  "trial_id": "20260329_transformer_300_068",
+  "model_class": "Transformer",
+  "champion_eligible": true,
+  "description": "Transformer lookback=4 model_dim=32 num_heads=4 num_layers=2 feedforward_dim=64 epochs=75 learning_rate=0.01 with housing_starts",
+  "gof_composite": 0.21621162799477628,
+  "gof_insample": 0.2920530823134152,
+  "gof_validation_near": 0.11471613888817678,
+  "gof_validation_far": 0.1727094208347666,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 32.25735679453166,
+  "mae": 26.051051737467446,
+  "theil_u": 0.8852838611118232,
+  "directional_accuracy": 0.581453634085213,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 32.25735679453166,
+  "rmse_3yr": 94.8928597240294,
+  "insample_rmse": 4.724458077190798,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

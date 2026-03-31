@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_ensemble_gb_xgb_finalize	Model Ensemble	True	20260331_ensemble_gb_xgb_finalize_001		0.6422114864199716	0.9644028298325781	0.41561971130743847	0.10100081464002342	21.29324198045704	103.11806484543857	22	1	Finalized static 60/40 ensemble of Gradient Boosting, XGBoost

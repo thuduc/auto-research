@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_bvar_refine2_20",
+  "trial_id": "20260325_bvar_refine2_20_008",
+  "model_class": "BVAR",
+  "champion_eligible": true,
+  "description": "BVAR(3) prior=minnesota lambda=0.4 trend=c with building_permits",
+  "gof_composite": -0.20802958251255418,
+  "gof_insample": 0.3080164992751051,
+  "gof_validation_near": -0.4657632363914668,
+  "gof_validation_far": -1.3436825521261082,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 53.408460008754965,
+  "mae": 38.450342595774835,
+  "theil_u": 1.4657632363914668,
+  "directional_accuracy": 0.6842105263157895,
+  "n_params": 15,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 53.408460008754965,
+  "rmse_3yr": 268.8278402504795,
+  "insample_rmse": 4.617926793107139,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

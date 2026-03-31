@@ -1,0 +1,240 @@
+{
+  "champion": {
+    "experiment_id": "20260331_ensemble_gb_xgb_finalize",
+    "trial_id": "20260331_ensemble_gb_xgb_finalize_001",
+    "model_class": "Model Ensemble",
+    "description": "Finalized static 60/40 ensemble of Gradient Boosting, XGBoost",
+    "method": "weighted_average",
+    "components": [
+      {
+        "component_name": "Gradient Boosting",
+        "experiment_id": "20260330_gradient_boosting_full20_300",
+        "trial_id": "20260330_gradient_boosting_full20_300_091",
+        "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence"
+      },
+      {
+        "component_name": "XGBoost",
+        "experiment_id": "20260330_xgboost_full20_300",
+        "trial_id": "20260330_xgboost_full20_300_068",
+        "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence"
+      }
+    ],
+    "weights": {
+      "Gradient Boosting__y_pred": 0.6,
+      "XGBoost__y_pred": 0.4
+    }
+  },
+  "sample_summary": {
+    "search_start": "1976-09-30",
+    "search_end": "2024-12-31",
+    "holdout_start": "2025-03-31",
+    "holdout_end": "2025-12-31",
+    "backtest_origins": [
+      "2005-12-31",
+      "2006-12-31",
+      "2007-12-31",
+      "2008-12-31",
+      "2009-12-31",
+      "2010-12-31",
+      "2011-12-31",
+      "2012-12-31",
+      "2013-12-31",
+      "2014-12-31"
+    ]
+  },
+  "validation_metrics": {
+    "experiment_id": "20260331_ensemble_gb_xgb_finalize",
+    "trial_id": "20260331_ensemble_gb_xgb_finalize_001",
+    "model_class": "Model Ensemble",
+    "champion_eligible": true,
+    "description": "Finalized static 60/40 ensemble of Gradient Boosting, XGBoost",
+    "gof_composite": 0.6422114864199716,
+    "gof_insample": 0.9644028298325781,
+    "gof_validation_near": 0.41561971130743847,
+    "gof_validation_far": 0.10100081464002342,
+    "gof_diagnostic": 0.9583333333333334,
+    "rmse": 21.29324198045704,
+    "mae": 16.425769213543088,
+    "theil_u": 0.5843802886925615,
+    "directional_accuracy": 0.47619047619047616,
+    "n_params": 22,
+    "status": "ok",
+    "diagnostics_passed": [
+      "component_diagnostics_mean",
+      "forecast_plausibility"
+    ],
+    "diagnostics_failed": [],
+    "error_summary": "",
+    "rmse_1yr": 21.29324198045704,
+    "rmse_3yr": 103.11806484543857,
+    "insample_rmse": NaN,
+    "naive_insample_rmse": NaN,
+    "component_models": [
+      {
+        "component_name": "Gradient Boosting",
+        "experiment_id": "20260330_gradient_boosting_full20_300",
+        "trial_id": "20260330_gradient_boosting_full20_300_091"
+      },
+      {
+        "component_name": "XGBoost",
+        "experiment_id": "20260330_xgboost_full20_300",
+        "trial_id": "20260330_xgboost_full20_300_068"
+      }
+    ]
+  },
+  "holdout_metrics": {
+    "rows": 4,
+    "rmse": 17.399081348066446,
+    "mae": 16.101209985794043,
+    "coverage_90": 0.0,
+    "coverage_50": 0.0
+  },
+  "holdout_predictions": [
+    {
+      "date": "2025-03-31 00:00:00",
+      "hpi_actual": 691.36,
+      "hpi_forecast": 685.786290014206,
+      "hpi_lower_90": 685.4410901339448,
+      "hpi_upper_90": 686.1314898944672,
+      "hpi_lower_50": 685.6447371263441,
+      "hpi_upper_50": 685.9278429020678,
+      "inside_90": false,
+      "inside_50": false
+    },
+    {
+      "date": "2025-06-30 00:00:00",
+      "hpi_actual": 701.82,
+      "hpi_forecast": 685.786290014206,
+      "hpi_lower_90": 685.2981036618112,
+      "hpi_upper_90": 686.2744763666009,
+      "hpi_lower_50": 685.5861040003986,
+      "hpi_upper_50": 685.9864760280134,
+      "inside_90": false,
+      "inside_50": false
+    },
+    {
+      "date": "2025-09-30 00:00:00",
+      "hpi_actual": 705.32,
+      "hpi_forecast": 685.786290014206,
+      "hpi_lower_90": 685.188386282827,
+      "hpi_upper_90": 686.384193745585,
+      "hpi_lower_50": 685.5411132204712,
+      "hpi_upper_50": 686.0314668079409,
+      "inside_90": false,
+      "inside_50": false
+    },
+    {
+      "date": "2025-12-31 00:00:00",
+      "hpi_actual": 709.05,
+      "hpi_forecast": 685.786290014206,
+      "hpi_lower_90": 685.0958902536836,
+      "hpi_upper_90": 686.4766897747284,
+      "hpi_lower_50": 685.5031842384822,
+      "hpi_upper_50": 686.0693957899298,
+      "inside_90": false,
+      "inside_50": false
+    }
+  ],
+  "scenario_summary": {
+    "baseline": {
+      "implemented": true,
+      "start_forecast": 685.786290014206,
+      "end_forecast": 685.345712950302,
+      "min_forecast": 685.038333111328,
+      "max_forecast": 685.8085169528765,
+      "q8_forecast": 685.786290014206,
+      "q20_forecast": 685.345712950302,
+      "q40_forecast": 685.345712950302
+    },
+    "adverse": {
+      "implemented": true,
+      "start_forecast": 685.652354467331,
+      "end_forecast": 685.345712950302,
+      "min_forecast": 685.038333111328,
+      "max_forecast": 685.8085169528765,
+      "q8_forecast": 685.4014415832889,
+      "q20_forecast": 685.4014415832889,
+      "q40_forecast": 685.345712950302
+    },
+    "severely_adverse": {
+      "implemented": true,
+      "start_forecast": 685.4014415832889,
+      "end_forecast": 685.345712950302,
+      "min_forecast": 683.4644406531788,
+      "max_forecast": 685.786290014206,
+      "q8_forecast": 683.5627894869732,
+      "q20_forecast": 683.5627894869732,
+      "q40_forecast": 685.345712950302
+    }
+  },
+  "benchmark_summary": [
+    {
+      "experiment_id": "20260331_ensemble_gb_xgb_refine",
+      "model_class": "Model Ensemble",
+      "gof_composite": 0.6422114864199716,
+      "description": "static 60/40 ensemble of Gradient Boosting, XGBoost"
+    },
+    {
+      "experiment_id": "20260331_ensemble_gb_xgb_finalize",
+      "model_class": "Model Ensemble",
+      "gof_composite": 0.6422114864199716,
+      "description": "Finalized static 60/40 ensemble of Gradient Boosting, XGBoost"
+    },
+    {
+      "experiment_id": "20260331_ensemble_gb_xgb_full20",
+      "model_class": "Model Ensemble",
+      "gof_composite": 0.6412762330528322,
+      "description": "inverse_rmse ensemble of Gradient Boosting, XGBoost"
+    },
+    {
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "model_class": "Gradient Boosting",
+      "gof_composite": 0.6375482073353181,
+      "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "experiment_id": "20260331_gradient_boosting_refine_60",
+      "model_class": "Gradient Boosting",
+      "gof_composite": 0.6375482073353181,
+      "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "experiment_id": "20260331_ensemble_top4_full20",
+      "model_class": "Model Ensemble",
+      "gof_composite": 0.6318170949122243,
+      "description": "inverse_rmse ensemble of Gradient Boosting, XGBoost, N-BEATS, Transformer"
+    },
+    {
+      "experiment_id": "20260330_xgboost_full20_300",
+      "model_class": "XGBoost",
+      "gof_composite": 0.6252645788374875,
+      "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "experiment_id": "20260331_xgboost_refine_60",
+      "model_class": "XGBoost",
+      "gof_composite": 0.6239836628960995,
+      "description": "XGBoost n_estimators=300 learning_rate=0.05 max_depth=4 subsample=0.7 colsample_bytree=0.7 lags=[1, 2, 4] with consumer_confidence"
+    },
+    {
+      "experiment_id": "20260331_nbeats_refine_60",
+      "model_class": "N-BEATS",
+      "gof_composite": 0.5855872642341936,
+      "description": "N-BEATS lookback=4 stack_width=96 n_blocks=2 n_layers=2 epochs=75 learning_rate=0.01 with housing_inventory"
+    },
+    {
+      "experiment_id": "20260329_xgboost_300",
+      "model_class": "XGBoost",
+      "gof_composite": 0.565112281218815,
+      "description": "XGBoost n_estimators=500 learning_rate=0.1 max_depth=2 subsample=0.8 colsample_bytree=0.8 lags=[1, 4, 8] with no exogenous variables"
+    }
+  ],
+  "diagnostics": {
+    "diagnostics_passed": [
+      "component_diagnostics_mean",
+      "forecast_plausibility"
+    ],
+    "diagnostics_failed": []
+  },
+  "scenario_output_path": "/Users/duc/projects/claude/github/fanniemae-cc-poc/auto-research-hpf/output/forecasts/champion_forecast_scenarios.csv"
+}

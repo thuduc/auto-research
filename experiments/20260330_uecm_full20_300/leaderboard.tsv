@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_uecm_full20_300	UECM / ECM	True	20260330_uecm_full20_300_001		-22.19131153393641	-54.85808749790961	-0.2631291387429837	-1.135113669988229	46.025019878742874	244.90432634382051	4	41	UECM(ar_lags=1, distributed_lags=1) trend=c with consumer_confidence

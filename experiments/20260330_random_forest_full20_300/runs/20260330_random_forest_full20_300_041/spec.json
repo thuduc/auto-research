@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20260330_random_forest_full20_300",
+  "trial_id": "20260330_random_forest_full20_300_041",
+  "model_class": "Random Forest",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Random Forest n_estimators=200 max_depth=None min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence",
+    "random_forest": {
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 200,
+      "max_depth": null,
+      "min_samples_leaf": 1,
+      "max_features": 1.0
+    }
+  }
+}

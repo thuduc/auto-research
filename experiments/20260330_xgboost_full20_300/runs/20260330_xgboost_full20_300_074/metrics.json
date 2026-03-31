@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_xgboost_full20_300",
+  "trial_id": "20260330_xgboost_full20_300_074",
+  "model_class": "XGBoost",
+  "champion_eligible": true,
+  "description": "XGBoost n_estimators=200 learning_rate=0.03 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 4, 8] with consumer_confidence",
+  "gof_composite": 0.40308545270304774,
+  "gof_insample": 0.6865080368907435,
+  "gof_validation_near": 0.3197959564137194,
+  "gof_validation_far": -0.0007534230981207646,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 24.784801226907607,
+  "mae": 19.74120904541015,
+  "theil_u": 0.6802040435862806,
+  "directional_accuracy": 0.2631578947368421,
+  "n_params": 11,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 24.784801226907607,
+  "rmse_3yr": 114.78959943217866,
+  "insample_rmse": 2.092077245121385,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

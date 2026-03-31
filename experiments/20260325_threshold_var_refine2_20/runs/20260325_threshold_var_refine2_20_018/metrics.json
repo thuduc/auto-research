@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_threshold_var_refine2_20",
+  "trial_id": "20260325_threshold_var_refine2_20_018",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "description": "Threshold VAR(1) delay=1 q=0.6 threshold=building_permits with mortgage_rate, real_gdp, building_permits",
+  "gof_composite": -60.36063772486991,
+  "gof_insample": 0.14246446389716994,
+  "gof_validation_near": -1.0178393851091023,
+  "gof_validation_far": -400.6314203931595,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 73.52462623432025,
+  "mae": 52.2894032041953,
+  "theil_u": 2.0178393851091023,
+  "directional_accuracy": 0.37844611528822053,
+  "n_params": 43,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 73.52462623432025,
+  "rmse_3yr": 46068.40086899953,
+  "insample_rmse": 5.722732296452695,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

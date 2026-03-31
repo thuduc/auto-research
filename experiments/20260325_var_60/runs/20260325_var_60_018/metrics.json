@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_var_60",
+  "trial_id": "20260325_var_60_018",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with building_permits",
+  "gof_composite": -0.09892850538396612,
+  "gof_insample": 0.4650787302972649,
+  "gof_validation_near": -0.29253286997331807,
+  "gof_validation_far": -1.6616010645258497,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 47.096412559725685,
+  "mae": 27.181688366595072,
+  "theil_u": 1.292532869973318,
+  "directional_accuracy": 0.40601503759398494,
+  "n_params": 9,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 47.096412559725685,
+  "rmse_3yr": 305.29410441519605,
+  "insample_rmse": 3.5697776911955805,
+  "naive_insample_rmse": 6.6734637289322345
+}

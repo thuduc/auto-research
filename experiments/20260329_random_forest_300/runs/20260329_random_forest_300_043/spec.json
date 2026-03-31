@@ -1,0 +1,28 @@
+{
+  "experiment_id": "20260329_random_forest_300",
+  "trial_id": "20260329_random_forest_300_043",
+  "model_class": "Random Forest",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Random Forest n_estimators=500 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with mortgage_rate",
+    "random_forest": {
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 500,
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "max_features": 1.0
+    }
+  }
+}

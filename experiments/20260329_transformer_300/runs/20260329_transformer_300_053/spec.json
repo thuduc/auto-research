@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260329_transformer_300",
+  "trial_id": "20260329_transformer_300_053",
+  "model_class": "Transformer",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Transformer lookback=8 model_dim=16 num_heads=2 num_layers=1 feedforward_dim=32 epochs=75 learning_rate=0.01 with real_gdp",
+    "transformer": {
+      "exogenous": [
+        "real_gdp"
+      ],
+      "lookback": 8,
+      "model_dim": 16,
+      "num_heads": 2,
+      "num_layers": 1,
+      "feedforward_dim": 32,
+      "epochs": 75,
+      "learning_rate": 0.01,
+      "dropout": 0.0
+    }
+  }
+}

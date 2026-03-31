@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_markov_switching_300	Markov-Switching AR / ARX	True	20260330_markov_switching_300_004		-5.203583965041968	-11.116804472309443	-1.7496862255329075	-0.963146647877824	100.19115172689266	225.17916215453695	7	5	Markov-Switching AR / ARX with per_capita_income

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_random_forest_300	Random Forest	True	20260329_random_forest_300_017		0.3916128248879453	0.6694943398874333	0.2281442385391772	-0.0402359637049338	28.12434269397771	119.3183723708613	6	57	Random Forest n_estimators=200 max_depth=None min_samples_leaf=1 lags=[1, 4, 8] with no exogenous variables

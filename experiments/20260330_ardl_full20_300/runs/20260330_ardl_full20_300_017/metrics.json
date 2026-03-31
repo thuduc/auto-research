@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260330_ardl_full20_300",
+  "trial_id": "20260330_ardl_full20_300_017",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "description": "ARDL(ar_lags=4, distributed_lags=4) trend=c with no exogenous variables",
+  "gof_composite": -3.3637516168030916e+16,
+  "gof_insample": 0.4292503076066919,
+  "gof_validation_near": -467355.36274918425,
+  "gof_validation_far": -2.2425010778578227e+17,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 17029205.665696353,
+  "mae": 6732090.371565084,
+  "theil_u": 467356.36274918425,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 17029205.665696353,
+  "rmse_3yr": 2.5722200345478062e+19,
+  "insample_rmse": 3.8088773704859715,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

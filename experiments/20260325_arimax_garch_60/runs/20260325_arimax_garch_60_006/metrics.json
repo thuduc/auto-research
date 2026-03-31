@@ -1,0 +1,37 @@
+{
+  "experiment_id": "20260325_arimax_garch_60",
+  "trial_id": "20260325_arimax_garch_60_006",
+  "model_class": "ARIMAX-GARCH",
+  "champion_eligible": true,
+  "description": "ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,2) dist=t with no exogenous variables",
+  "gof_composite": -0.5538579145755398,
+  "gof_insample": -1.7020455895991913,
+  "gof_validation_near": 0.17103627103059604,
+  "gof_validation_far": 0.0028730649117439944,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 30.2052030424554,
+  "mae": 21.366412467631367,
+  "theil_u": 0.828963728969404,
+  "directional_accuracy": 0.8320802005012531,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.2052030424554,
+  "rmse_3yr": 114.3736297273644,
+  "insample_rmse": 18.032003236111517,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

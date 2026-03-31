@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_threshold_var_full20_300	Threshold VAR / SETAR	True	20260331_threshold_var_full20_300_031		0.1234193626870906	0.2406869739006707	0.1031044327138889	-0.3929465221535921	32.680456057390536	159.7753948354768	15	79	Threshold VAR(1) delay=1 q=0.4 threshold=fed_funds with fed_funds

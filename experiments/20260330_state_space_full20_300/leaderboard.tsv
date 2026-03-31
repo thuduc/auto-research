@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_state_space_full20_300	State-Space	True	20260330_state_space_full20_300_030		-0.3084566748681034	-1.1343456573686237	0.3333104330286063	0.0003433863193685	24.29237013987721	114.66379190478864	4	70	State-Space(local level, no_cycle) with fed_funds, housing_inventory

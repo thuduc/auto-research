@@ -1,0 +1,55 @@
+{
+  "experiment_id": "20260325_ensemble_top5",
+  "trial_id": "20260325_ensemble_top5_002",
+  "model_class": "Econometric Ensemble",
+  "champion_eligible": true,
+  "description": "inverse_rmse ensemble of VECM, VAR, BVAR, State-Space, ARIMAX-GARCH",
+  "gof_composite": -0.0251777532952987,
+  "gof_insample": -0.46928210736139525,
+  "gof_validation_near": 0.28235737006949246,
+  "gof_validation_far": -0.07791210181258901,
+  "gof_diagnostic": 0.753968253968254,
+  "rmse": 26.148962362830613,
+  "mae": 19.603071643280646,
+  "theil_u": 0.7176426299305075,
+  "directional_accuracy": 0.7744360902255639,
+  "n_params": 60,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_mean",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [],
+  "error_summary": "",
+  "rmse_1yr": 26.148962362830613,
+  "rmse_3yr": 123.63994519960109,
+  "insample_rmse": NaN,
+  "naive_insample_rmse": NaN,
+  "component_models": [
+    {
+      "component_name": "VECM",
+      "experiment_id": "20260325_vecm_refine2_20",
+      "trial_id": "20260325_vecm_refine2_20_001"
+    },
+    {
+      "component_name": "VAR",
+      "experiment_id": "20260325_var_refine2_20",
+      "trial_id": "20260325_var_refine2_20_001"
+    },
+    {
+      "component_name": "BVAR",
+      "experiment_id": "20260325_bvar_refine_20",
+      "trial_id": "20260325_bvar_refine_20_004"
+    },
+    {
+      "component_name": "State-Space",
+      "experiment_id": "20260325_state_space_60_recovery",
+      "trial_id": "20260325_state_space_60_recovery_012"
+    },
+    {
+      "component_name": "ARIMAX-GARCH",
+      "experiment_id": "20260325_arimax_garch_60_volaware",
+      "trial_id": "20260325_arimax_garch_60_volaware_012"
+    }
+  ]
+}

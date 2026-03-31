@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_dols_fmols_full20_300",
+  "trial_id": "20260330_dols_fmols_full20_300_058",
+  "model_class": "DOLS / FMOLS",
+  "champion_eligible": true,
+  "description": "DOLS trend=ct leads=1 lags=2 with new_home_sales",
+  "gof_composite": -1.9297743566012502,
+  "gof_insample": -4.7050888709313226,
+  "gof_validation_near": -0.36443445914526196,
+  "gof_validation_far": 0.34161215933794686,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 49.71631259167743,
+  "mae": 45.08531949361726,
+  "theil_u": 1.364434459145262,
+  "directional_accuracy": 0.7167919799498746,
+  "n_params": 3,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 49.71631259167743,
+  "rmse_3yr": 75.51917860710044,
+  "insample_rmse": 38.68679558929395,
+  "naive_insample_rmse": 6.7811030580805935,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

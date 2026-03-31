@@ -1,0 +1,35 @@
+{
+  "experiment_id": "20260325_arimax_garch_60",
+  "trial_id": "20260325_arimax_garch_60_011",
+  "model_class": "ARIMAX-GARCH",
+  "champion_eligible": true,
+  "dependency_scope": "garch",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=t with mortgage_rate",
+    "arimax_garch": {
+      "order": [
+        1,
+        1,
+        0
+      ],
+      "trend": "t",
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "include_intercept": false,
+      "enforce_stationarity": false,
+      "enforce_invertibility": false,
+      "maxiter": 200,
+      "volatility": "GARCH",
+      "p": 1,
+      "o": 0,
+      "q": 1,
+      "distribution": "t",
+      "residual_scale": 100.0
+    }
+  }
+}

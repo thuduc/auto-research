@@ -1,0 +1,137 @@
+target:
+  key: hpi
+  series_id: USSTHPI
+  fred_url: https://fred.stlouisfed.org/series/USSTHPI
+  source: FHFA via FRED
+  frequency: quarterly
+  primary_search_start: 1995-03-31
+
+exogenous:
+  - key: real_gdp
+    series_id: GDPC1
+    fred_url: https://fred.stlouisfed.org/series/GDPC1
+    group: demand
+    transform: log_diff
+    expected_sign: positive
+  - key: per_capita_income
+    series_id: A792RC0Q052SBEA
+    fred_url: https://fred.stlouisfed.org/series/A792RC0Q052SBEA
+    group: demand
+    transform: log_diff
+    expected_sign: positive
+  - key: population
+    series_id: POPTHM
+    fred_url: https://fred.stlouisfed.org/series/POPTHM
+    group: demand
+    transform: log_diff
+    expected_sign: positive
+  - key: unemployment_rate
+    series_id: UNRATE
+    fred_url: https://fred.stlouisfed.org/series/UNRATE
+    group: demand
+    transform: level
+    expected_sign: negative
+  - key: consumer_confidence
+    series_id: UMCSENT
+    fred_url: https://fred.stlouisfed.org/series/UMCSENT
+    group: demand
+    transform: level
+    expected_sign: positive
+  - key: personal_consumption
+    series_id: PCECC96
+    fred_url: https://fred.stlouisfed.org/series/PCECC96
+    group: demand
+    transform: log_diff
+    expected_sign: positive
+  - key: housing_starts
+    series_id: HOUST
+    fred_url: https://fred.stlouisfed.org/series/HOUST
+    group: supply
+    transform: log_diff
+    expected_sign: either
+  - key: building_permits
+    series_id: PERMIT
+    fred_url: https://fred.stlouisfed.org/series/PERMIT
+    group: supply
+    transform: log_diff
+    expected_sign: either
+  - key: new_home_sales
+    series_id: HSN1F
+    fred_url: https://fred.stlouisfed.org/series/HSN1F
+    group: supply
+    transform: log_level
+    expected_sign: either
+  - key: existing_home_sales
+    series_id: EXHOSLUSM495S
+    fred_url: https://fred.stlouisfed.org/series/EXHOSLUSM495S
+    group: supply
+    transform: log_level
+    expected_sign: either
+  - key: housing_inventory
+    series_id: MSACSR
+    fred_url: https://fred.stlouisfed.org/series/MSACSR
+    group: supply
+    transform: level
+    expected_sign: negative
+  - key: mortgage_rate
+    series_id: MORTGAGE30US
+    fred_url: https://fred.stlouisfed.org/series/MORTGAGE30US
+    group: financing
+    transform: level
+    expected_sign: negative
+  - key: treasury_10y
+    series_id: GS10
+    fred_url: https://fred.stlouisfed.org/series/GS10
+    group: financing
+    transform: level
+    expected_sign: negative
+  - key: fed_funds
+    series_id: FEDFUNDS
+    fred_url: https://fred.stlouisfed.org/series/FEDFUNDS
+    group: financing
+    transform: level
+    expected_sign: negative
+  - key: term_spread
+    series_id: T10Y2Y
+    fred_url: https://fred.stlouisfed.org/series/T10Y2Y
+    group: financing
+    transform: level
+    expected_sign: positive
+  - key: m2_money_supply
+    series_id: M2SL
+    fred_url: https://fred.stlouisfed.org/series/M2SL
+    group: financing
+    transform: log_diff
+    expected_sign: positive
+  - key: cpi_all_items
+    series_id: CPIAUCSL
+    fred_url: https://fred.stlouisfed.org/series/CPIAUCSL
+    group: prices
+    transform: log_diff
+    expected_sign: either
+  - key: cpi_less_shelter
+    series_id: CUSR0000SA0L2
+    fred_url: https://fred.stlouisfed.org/series/CUSR0000SA0L2
+    group: prices
+    transform: log_diff
+    expected_sign: either
+  - key: ppi_construction
+    series_id: WPUSI012011
+    fred_url: https://fred.stlouisfed.org/series/WPUSI012011
+    group: prices
+    transform: log_diff
+    expected_sign: either
+  - key: sp500
+    series_id: SP500
+    fred_url: https://fred.stlouisfed.org/series/SP500
+    group: prices
+    transform: log_diff
+    expected_sign: positive
+
+dummies:
+  - key: gfc_dummy
+    type: step
+    start: 2008-12-31
+  - key: covid_dummy
+    type: pulse
+    date: 2020-06-30

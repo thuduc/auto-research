@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260331_dynamic_factor_full20_300",
+  "trial_id": "20260331_dynamic_factor_full20_300_008",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=2) with fed_funds",
+  "gof_composite": -0.9849614028739876,
+  "gof_insample": -2.4692714376342395,
+  "gof_validation_near": 0.13165061763986252,
+  "gof_validation_far": -0.39998140440606944,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 31.640310051426578,
+  "mae": 22.916844212653174,
+  "theil_u": 0.8683493823601375,
+  "directional_accuracy": 0.3283208020050125,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 31.640310051426578,
+  "rmse_3yr": 160.58231819659252,
+  "insample_rmse": 23.152057104872686,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,33 @@
+{
+  "experiment_id": "20260325_vecm_60",
+  "trial_id": "20260325_vecm_60_039",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=4) deterministic=ci with mortgage_rate, building_permits",
+  "gof_composite": 0.1782988455249506,
+  "gof_insample": 0.4793225130054046,
+  "gof_validation_near": 0.0493808334386886,
+  "gof_validation_far": -0.6492007869827929,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 34.63799915314983,
+  "mae": 21.637137104256315,
+  "theil_u": 0.9506191665613114,
+  "directional_accuracy": 0.5213032581453634,
+  "n_params": 43,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 34.63799915314983,
+  "rmse_3yr": 189.16857374808822,
+  "insample_rmse": 3.474722323930018,
+  "naive_insample_rmse": 6.6734637289322345
+}

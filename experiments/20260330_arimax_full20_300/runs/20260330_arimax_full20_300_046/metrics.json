@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_arimax_full20_300",
+  "trial_id": "20260330_arimax_full20_300_046",
+  "model_class": "ARIMAX",
+  "champion_eligible": true,
+  "description": "ARIMAX(1, 1, 0) trend=t with housing_inventory, population",
+  "gof_composite": -0.41633261776847663,
+  "gof_insample": -1.332734475263008,
+  "gof_validation_near": 0.16489125289436135,
+  "gof_validation_far": 0.012709177872285982,
+  "gof_diagnostic": 0.5714285714285714,
+  "rmse": 30.429110933739494,
+  "mae": 21.10956665070624,
+  "theil_u": 0.8351087471056386,
+  "directional_accuracy": 0.8270676691729323,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 30.429110933739494,
+  "rmse_3yr": 113.24539629778005,
+  "insample_rmse": 15.567418909897452,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

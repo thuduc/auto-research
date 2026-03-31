@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_var	VAR	True	20260325_var_015		0.09184875167141797	0.49664992744518976	-0.03078296104493794	-1.084692330717309	37.55895166821575	239.12083841946756	13	15	VAR(4) trend=c with mortgage_rate, real_gdp

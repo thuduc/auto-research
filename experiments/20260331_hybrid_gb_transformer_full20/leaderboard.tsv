@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_hybrid_gb_transformer_full20	Horizon Hybrid	True	20260331_hybrid_gb_transformer_full20_002		0.499402910739862	0.5661177924316838	0.4933395330223284	0.1352463813958236	18.461341243086743	99.18998945794043	17	2	smooth_blend_9_16 hybrid of Gradient Boosting (near) and Transformer (far)

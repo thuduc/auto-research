@@ -1,0 +1,53 @@
+{
+  "experiment_id": "20260330_state_space_full20_300",
+  "trial_id": "20260330_state_space_full20_300_064",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, no_cycle) with consumer_confidence, mortgage_rate, housing_inventory",
+  "gof_composite": -0.4951704564619591,
+  "gof_insample": -1.5042549882780096,
+  "gof_validation_near": 0.2393319447149852,
+  "gof_validation_far": -0.03870713581619012,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 27.716692847777882,
+  "mae": 22.491340379807315,
+  "theil_u": 0.7606680552850148,
+  "directional_accuracy": 0.5739348370927319,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 27.716692847777882,
+  "rmse_3yr": 119.14301095125572,
+  "insample_rmse": 16.712054832270915,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

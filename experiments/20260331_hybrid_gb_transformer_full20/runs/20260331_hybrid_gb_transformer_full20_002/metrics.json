@@ -1,0 +1,40 @@
+{
+  "experiment_id": "20260331_hybrid_gb_transformer_full20",
+  "trial_id": "20260331_hybrid_gb_transformer_full20_002",
+  "model_class": "Horizon Hybrid",
+  "champion_eligible": true,
+  "description": "smooth_blend_9_16 hybrid of Gradient Boosting (near) and Transformer (far)",
+  "gof_composite": 0.49940291073986204,
+  "gof_insample": 0.5661177924316838,
+  "gof_validation_near": 0.49333953302232847,
+  "gof_validation_far": 0.13524638139582368,
+  "gof_diagnostic": 0.8,
+  "rmse": 18.461341243086743,
+  "mae": 14.481197584436577,
+  "theil_u": 0.5066604669776715,
+  "directional_accuracy": 0.6541353383458647,
+  "n_params": 17,
+  "status": "ok",
+  "diagnostics_passed": [
+    "component_diagnostics_weighted",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [],
+  "error_summary": "",
+  "rmse_1yr": 18.461341243086743,
+  "rmse_3yr": 99.18998945794043,
+  "insample_rmse": NaN,
+  "naive_insample_rmse": NaN,
+  "components": [
+    {
+      "role": "long_horizon",
+      "experiment_id": "20260330_transformer_full20_300",
+      "trial_id": "20260330_transformer_full20_300_014"
+    },
+    {
+      "role": "near_horizon",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091"
+    }
+  ]
+}

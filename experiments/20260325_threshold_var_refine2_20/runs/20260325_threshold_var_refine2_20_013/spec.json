@@ -1,0 +1,29 @@
+{
+  "experiment_id": "20260325_threshold_var_refine2_20",
+  "trial_id": "20260325_threshold_var_refine2_20_013",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Threshold VAR(1) delay=1 q=0.6 threshold=housing_inventory with mortgage_rate, housing_inventory, term_spread",
+    "threshold_var": {
+      "lags": 1,
+      "trend": "c",
+      "delay": 1,
+      "threshold_variable": "housing_inventory",
+      "threshold_quantile": 0.6,
+      "ridge_alpha": 0.025,
+      "endogenous": [
+        "hpi",
+        "mortgage_rate",
+        "housing_inventory",
+        "term_spread"
+      ],
+      "regime_count": 2
+    }
+  }
+}

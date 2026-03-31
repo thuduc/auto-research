@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_dynamic_factor_60	Dynamic Factor	True	20260325_dynamic_factor_60_016		-0.5804733630683476	-1.778637141433792	0.302642241093853	-0.0551774947400844	25.40983635940152	121.0322134858072	5	20	Dynamic Factor(k_factors=1, factor_order=1) with building_permits

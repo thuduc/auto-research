@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_dols_fmols_full20_300	DOLS / FMOLS	True	20260330_dols_fmols_full20_300_039		-1.7004815041422154	-3.3475704886589144	-1.13147519449163	0.0399438721466163	77.66520871741669	110.12149027432623	3	79	DOLS trend=ct leads=2 lags=1 with mortgage_rate

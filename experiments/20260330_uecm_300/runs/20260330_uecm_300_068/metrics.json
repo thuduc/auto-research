@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_300",
+  "trial_id": "20260330_uecm_300_068",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=4, distributed_lags=1) trend=ct with per_capita_income",
+  "gof_composite": -22.297744067808893,
+  "gof_insample": -55.39233613025088,
+  "gof_validation_near": -0.11848437204798978,
+  "gof_validation_far": -0.8527434270877938,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 40.754554604607655,
+  "mae": 27.029397472776207,
+  "theil_u": 1.1184843720479898,
+  "directional_accuracy": 0.5914786967418546,
+  "n_params": 8,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 40.754554604607655,
+  "rmse_3yr": 212.51556171310497,
+  "insample_rmse": 376.33220975498404,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

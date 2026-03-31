@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_031",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with consumer_confidence, treasury_10y",
+  "gof_composite": -0.18669653525780328,
+  "gof_insample": 0.15162149450731188,
+  "gof_validation_near": -0.29664394487233015,
+  "gof_validation_far": -1.2901316823694167,
+  "gof_diagnostic": 0.5,
+  "rmse": 47.24620904382732,
+  "mae": 28.71626045574091,
+  "theil_u": 1.2966439448723301,
+  "directional_accuracy": 0.7243107769423559,
+  "n_params": 12,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 47.24620904382732,
+  "rmse_3yr": 262.6853852293562,
+  "insample_rmse": 5.661623184811191,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

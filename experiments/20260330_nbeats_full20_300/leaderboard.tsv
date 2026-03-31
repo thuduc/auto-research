@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_nbeats_full20_300	N-BEATS	True	20260330_nbeats_full20_300_043		0.5352945017365615	0.6024746801532722	0.4946735429372449	0.3633481532036678	18.41273351884916	73.02599100312283	7	83	N-BEATS lookback=4 stack_width=64 n_blocks=2 n_layers=2 epochs=75 learning_rate=0.01 with housing_inventory

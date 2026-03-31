@@ -1,0 +1,74 @@
+{
+  "model_class": "Model Ensemble",
+  "method": "weighted_average",
+  "component_weights": {
+    "Gradient Boosting__y_pred": 0.6,
+    "XGBoost__y_pred": 0.4
+  },
+  "components": [
+    {
+      "model_class": "Gradient Boosting",
+      "experiment_id": "20260330_gradient_boosting_full20_300",
+      "trial_id": "20260330_gradient_boosting_full20_300_091",
+      "description": "Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence",
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "feature_importance": [
+        {
+          "feature": "hpi_lag_1",
+          "importance": 0.5317769574409508
+        },
+        {
+          "feature": "hpi_lag_2",
+          "importance": 0.2691664768714388
+        },
+        {
+          "feature": "hpi_lag_4",
+          "importance": 0.197995557884735
+        },
+        {
+          "feature": "consumer_confidence",
+          "importance": 0.0010610078028755216
+        }
+      ]
+    },
+    {
+      "model_class": "XGBoost",
+      "experiment_id": "20260330_xgboost_full20_300",
+      "trial_id": "20260330_xgboost_full20_300_068",
+      "description": "XGBoost n_estimators=500 learning_rate=0.05 max_depth=3 subsample=0.8 colsample_bytree=0.8 lags=[1, 2, 4] with consumer_confidence",
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "exogenous": [
+        "consumer_confidence"
+      ],
+      "feature_importance": [
+        {
+          "feature": "hpi_lag_1",
+          "importance": 0.818229615688324
+        },
+        {
+          "feature": "hpi_lag_2",
+          "importance": 0.17340853810310364
+        },
+        {
+          "feature": "hpi_lag_4",
+          "importance": 0.007379158399999142
+        },
+        {
+          "feature": "consumer_confidence",
+          "importance": 0.0009826438035815954
+        }
+      ]
+    }
+  ]
+}

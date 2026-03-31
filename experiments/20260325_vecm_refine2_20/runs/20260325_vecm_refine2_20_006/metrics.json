@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260325_vecm_refine2_20",
+  "trial_id": "20260325_vecm_refine2_20_006",
+  "model_class": "VECM",
+  "champion_eligible": true,
+  "description": "VECM(k_ar_diff=2) deterministic=ci with building_permits",
+  "gof_composite": 0.03234488540578607,
+  "gof_insample": 0.3140557010544658,
+  "gof_validation_near": 0.01664436824552229,
+  "gof_validation_far": -0.8829083815684426,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 35.83082767326034,
+  "mae": 22.7285493427967,
+  "theil_u": 0.9833556317544777,
+  "directional_accuracy": 0.6666666666666666,
+  "n_params": 13,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 35.83082767326034,
+  "rmse_3yr": 215.97557789871445,
+  "insample_rmse": 4.5776243990808725,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

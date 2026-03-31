@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_016",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with new_home_sales",
+  "gof_composite": -0.49335013003781925,
+  "gof_insample": 0.17553487920146282,
+  "gof_validation_near": -0.7535020471176477,
+  "gof_validation_far": -2.2211446570704076,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 63.89288640456863,
+  "mae": 48.00133107371413,
+  "theil_u": 1.7535020471176477,
+  "directional_accuracy": 0.3007518796992481,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 63.89288640456863,
+  "rmse_3yr": 369.4755334970874,
+  "insample_rmse": 5.502038079418771,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

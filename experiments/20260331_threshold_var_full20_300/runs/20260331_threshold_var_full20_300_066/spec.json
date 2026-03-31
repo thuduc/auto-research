@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260331_threshold_var_full20_300",
+  "trial_id": "20260331_threshold_var_full20_300_066",
+  "model_class": "Threshold VAR / SETAR",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Threshold VAR(2) delay=2 q=0.5 threshold=hpi with new_home_sales",
+    "threshold_var": {
+      "lags": 2,
+      "trend": "c",
+      "delay": 2,
+      "threshold_variable": "hpi",
+      "threshold_quantile": 0.5,
+      "ridge_alpha": 0.1,
+      "endogenous": [
+        "hpi",
+        "new_home_sales"
+      ],
+      "regime_count": 2
+    }
+  }
+}

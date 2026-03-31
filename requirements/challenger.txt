@@ -1,0 +1,15 @@
+pandas
+numpy
+scipy
+scikit-learn
+torch
+xgboost
+lightgbm
+statsmodels
+arch
+fredapi
+pyarrow
+pyyaml
+tabulate
+matplotlib
+neuralprophet

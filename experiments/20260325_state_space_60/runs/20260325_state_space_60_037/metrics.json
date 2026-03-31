@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_037",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, cycle) with mortgage_rate, building_permits",
+  "gof_composite": -0.5362465587877345,
+  "gof_insample": -1.4237432345837582,
+  "gof_validation_near": 0.11257915147209174,
+  "gof_validation_far": -0.3267274055107072,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 32.33522285374063,
+  "mae": 25.228678038950004,
+  "theil_u": 0.8874208485279083,
+  "directional_accuracy": 0.556390977443609,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 32.33522285374063,
+  "rmse_3yr": 152.1798516189894,
+  "insample_rmse": 16.174762564239604,
+  "naive_insample_rmse": 6.6734637289322345
+}

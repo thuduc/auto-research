@@ -1,0 +1,204 @@
+{
+  "primary_search_start": "1995-03-31",
+  "search_start": "1976-09-30",
+  "search_end": "2024-12-31",
+  "holdout_start": "2025-03-31",
+  "holdout_end": "2025-12-31",
+  "backtest_first_origin": "2005-12-31",
+  "backtest_origins": [
+    "2005-12-31",
+    "2006-12-31",
+    "2007-12-31",
+    "2008-12-31",
+    "2009-12-31",
+    "2010-12-31",
+    "2011-12-31",
+    "2012-12-31",
+    "2013-12-31",
+    "2014-12-31"
+  ],
+  "near_horizons": [
+    1,
+    12
+  ],
+  "far_horizons": [
+    13,
+    40
+  ],
+  "target_column": "hpi",
+  "target_growth_column": "hpi_logdiff",
+  "variables": [
+    {
+      "key": "real_gdp",
+      "series_id": "GDPC1",
+      "fred_url": "https://fred.stlouisfed.org/series/GDPC1",
+      "transform": "log_diff",
+      "group": "demand",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "per_capita_income",
+      "series_id": "A792RC0Q052SBEA",
+      "fred_url": "https://fred.stlouisfed.org/series/A792RC0Q052SBEA",
+      "transform": "log_diff",
+      "group": "demand",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "population",
+      "series_id": "POPTHM",
+      "fred_url": "https://fred.stlouisfed.org/series/POPTHM",
+      "transform": "log_diff",
+      "group": "demand",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "unemployment_rate",
+      "series_id": "UNRATE",
+      "fred_url": "https://fred.stlouisfed.org/series/UNRATE",
+      "transform": "level",
+      "group": "demand",
+      "expected_sign": "negative"
+    },
+    {
+      "key": "consumer_confidence",
+      "series_id": "UMCSENT",
+      "fred_url": "https://fred.stlouisfed.org/series/UMCSENT",
+      "transform": "level",
+      "group": "demand",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "personal_consumption",
+      "series_id": "PCECC96",
+      "fred_url": "https://fred.stlouisfed.org/series/PCECC96",
+      "transform": "log_diff",
+      "group": "demand",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "housing_starts",
+      "series_id": "HOUST",
+      "fred_url": "https://fred.stlouisfed.org/series/HOUST",
+      "transform": "log_diff",
+      "group": "supply",
+      "expected_sign": "either"
+    },
+    {
+      "key": "building_permits",
+      "series_id": "PERMIT",
+      "fred_url": "https://fred.stlouisfed.org/series/PERMIT",
+      "transform": "log_diff",
+      "group": "supply",
+      "expected_sign": "either"
+    },
+    {
+      "key": "new_home_sales",
+      "series_id": "HSN1F",
+      "fred_url": "https://fred.stlouisfed.org/series/HSN1F",
+      "transform": "log_level",
+      "group": "supply",
+      "expected_sign": "either"
+    },
+    {
+      "key": "housing_inventory",
+      "series_id": "MSACSR",
+      "fred_url": "https://fred.stlouisfed.org/series/MSACSR",
+      "transform": "level",
+      "group": "supply",
+      "expected_sign": "negative"
+    },
+    {
+      "key": "mortgage_rate",
+      "series_id": "MORTGAGE30US",
+      "fred_url": "https://fred.stlouisfed.org/series/MORTGAGE30US",
+      "transform": "level",
+      "group": "financing",
+      "expected_sign": "negative"
+    },
+    {
+      "key": "treasury_10y",
+      "series_id": "GS10",
+      "fred_url": "https://fred.stlouisfed.org/series/GS10",
+      "transform": "level",
+      "group": "financing",
+      "expected_sign": "negative"
+    },
+    {
+      "key": "fed_funds",
+      "series_id": "FEDFUNDS",
+      "fred_url": "https://fred.stlouisfed.org/series/FEDFUNDS",
+      "transform": "level",
+      "group": "financing",
+      "expected_sign": "negative"
+    },
+    {
+      "key": "term_spread",
+      "series_id": "T10Y2Y",
+      "fred_url": "https://fred.stlouisfed.org/series/T10Y2Y",
+      "transform": "level",
+      "group": "financing",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "m2_money_supply",
+      "series_id": "M2SL",
+      "fred_url": "https://fred.stlouisfed.org/series/M2SL",
+      "transform": "log_diff",
+      "group": "financing",
+      "expected_sign": "positive"
+    },
+    {
+      "key": "cpi_all_items",
+      "series_id": "CPIAUCSL",
+      "fred_url": "https://fred.stlouisfed.org/series/CPIAUCSL",
+      "transform": "log_diff",
+      "group": "prices",
+      "expected_sign": "either"
+    },
+    {
+      "key": "cpi_less_shelter",
+      "series_id": "CUSR0000SA0L2",
+      "fred_url": "https://fred.stlouisfed.org/series/CUSR0000SA0L2",
+      "transform": "log_diff",
+      "group": "prices",
+      "expected_sign": "either"
+    },
+    {
+      "key": "ppi_construction",
+      "series_id": "WPUSI012011",
+      "fred_url": "https://fred.stlouisfed.org/series/WPUSI012011",
+      "transform": "log_diff",
+      "group": "prices",
+      "expected_sign": "either"
+    }
+  ],
+  "excluded_variables": [
+    {
+      "key": "existing_home_sales",
+      "series_id": "EXHOSLUSM495S",
+      "reason": "insufficient_history_for_primary_search_window",
+      "first_valid_date": "2025-03-31"
+    },
+    {
+      "key": "sp500",
+      "series_id": "SP500",
+      "reason": "insufficient_history_for_primary_search_window",
+      "first_valid_date": "2016-06-30"
+    }
+  ],
+  "dummies": [
+    {
+      "key": "gfc_dummy",
+      "type": "step",
+      "start": "2008-12-31",
+      "date": null
+    },
+    {
+      "key": "covid_dummy",
+      "type": "pulse",
+      "start": null,
+      "date": "2020-06-30"
+    }
+  ]
+}

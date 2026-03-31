@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_023",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=2) with housing_inventory",
+  "gof_composite": -9.067540500991505,
+  "gof_insample": -17.807968308576235,
+  "gof_validation_near": -5.027967555591996,
+  "gof_validation_far": -1.4526524429143,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 219.64288374396412,
+  "mae": 158.2473212932245,
+  "theil_u": 6.027967555591996,
+  "directional_accuracy": 0.11779448621553884,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "jarque_bera",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 219.64288374396412,
+  "rmse_3yr": 281.3270331835606,
+  "insample_rmse": 125.51429432219045,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

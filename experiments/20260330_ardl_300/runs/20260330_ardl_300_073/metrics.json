@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_ardl_300",
+  "trial_id": "20260330_ardl_300_073",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "description": "ARDL(ar_lags=1, distributed_lags=1) trend=c with per_capita_income",
+  "gof_composite": -0.2860278363291659,
+  "gof_insample": 0.08544223407415508,
+  "gof_validation_near": -0.4074424345449488,
+  "gof_validation_far": -1.279237281025401,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 51.28340724732359,
+  "mae": 36.81253970551759,
+  "theil_u": 1.4074424345449488,
+  "directional_accuracy": 0.7819548872180451,
+  "n_params": 4,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.28340724732359,
+  "rmse_3yr": 261.4357627574575,
+  "insample_rmse": 6.103268078919423,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

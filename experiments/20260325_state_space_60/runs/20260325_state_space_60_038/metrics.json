@@ -1,0 +1,34 @@
+{
+  "experiment_id": "20260325_state_space_60",
+  "trial_id": "20260325_state_space_60_038",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local level, cycle) with mortgage_rate, term_spread",
+  "gof_composite": -0.6154494751855822,
+  "gof_insample": -1.4584733005654127,
+  "gof_validation_near": -0.027580720133575376,
+  "gof_validation_far": -0.43509363846539095,
+  "gof_diagnostic": 0.42857142857142855,
+  "rmse": 37.44227064401845,
+  "mae": 28.460145814815707,
+  "theil_u": 1.0275807201335754,
+  "directional_accuracy": 0.5714285714285714,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "economic_sign"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 37.44227064401845,
+  "rmse_3yr": 164.609803079293,
+  "insample_rmse": 16.406532399871598,
+  "naive_insample_rmse": 6.6734637289322345
+}

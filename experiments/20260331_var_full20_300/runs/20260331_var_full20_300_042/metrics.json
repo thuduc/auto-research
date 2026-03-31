@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_042",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(4) trend=c with consumer_confidence, housing_inventory",
+  "gof_composite": -0.0071000033940582935,
+  "gof_insample": 0.5056294966684918,
+  "gof_validation_near": -0.20787911999898046,
+  "gof_validation_far": -1.3550718448565235,
+  "gof_diagnostic": 0.6666666666666666,
+  "rmse": 44.011858173420926,
+  "mae": 28.125170665964863,
+  "theil_u": 1.2078791199989805,
+  "directional_accuracy": 0.531328320802005,
+  "n_params": 39,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 44.011858173420926,
+  "rmse_3yr": 270.13422833785955,
+  "insample_rmse": 3.2991636226367924,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

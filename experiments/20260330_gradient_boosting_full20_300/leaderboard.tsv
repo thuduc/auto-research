@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_gradient_boosting_full20_300	Gradient Boosting	True	20260330_gradient_boosting_full20_300_091		0.6375482073353181	0.9851390017326772	0.4093119646329246	0.112667237915935	21.523079260890203	101.77988900337918	9	131	Gradient Boosting n_estimators=500 learning_rate=0.05 max_depth=3 min_samples_leaf=1 lags=[1, 2, 4] with consumer_confidence

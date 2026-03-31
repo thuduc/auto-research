@@ -1,0 +1,26 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_stable",
+  "trial_id": "20260325_dynamic_factor_60_stable_012",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Dynamic Factor(k_factors=1, factor_order=4) with real_gdp",
+    "dynamic_factor": {
+      "k_factors": 1,
+      "factor_order": 4,
+      "error_order": 0,
+      "error_var": false,
+      "error_cov_type": "diagonal",
+      "enforce_stationarity": true,
+      "endogenous": [
+        "hpi",
+        "real_gdp"
+      ]
+    }
+  }
+}

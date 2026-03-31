@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_lightgbm_300	LightGBM	True	20260329_lightgbm_300_014		-0.0671609501950383	-0.4181345525834963	0.1488138129589497	-0.0132797579818146	31.01492949332319	116.22640986966	11	54	LightGBM n_estimators=500 learning_rate=0.05 max_depth=3 num_leaves=15 lags=[1, 2, 4] with no exogenous variables

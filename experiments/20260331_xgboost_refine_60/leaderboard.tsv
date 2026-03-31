@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260331_xgboost_refine_60	XGBoost	True	20260331_xgboost_refine_60_046		0.6239836628960995	0.9133795486439844	0.3969957464322088	0.1312222145815512	21.971849042326006	99.65157418600316	11	60	XGBoost n_estimators=300 learning_rate=0.05 max_depth=4 subsample=0.7 colsample_bytree=0.7 lags=[1, 2, 4] with consumer_confidence

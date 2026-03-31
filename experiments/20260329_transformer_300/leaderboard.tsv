@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260329_transformer_300	Transformer	True	20260329_transformer_300_030		0.4393197684440471	0.3697088134731251	0.6267593180189699	0.1471365449877174	13.599884034682104	97.82614989027628	8	70	Transformer lookback=8 model_dim=16 num_heads=2 num_layers=2 feedforward_dim=32 epochs=75 learning_rate=0.01 with mortgage_rate, unemployment_rate

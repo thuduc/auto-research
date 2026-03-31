@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_uecm_300",
+  "trial_id": "20260330_uecm_300_002",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "description": "UECM(ar_lags=1, distributed_lags=1) trend=ct with mortgage_rate",
+  "gof_composite": -22.800338933594926,
+  "gof_insample": -54.8587188423024,
+  "gof_validation_near": -0.7651006299888379,
+  "gof_validation_far": -4.022345936423892,
+  "gof_diagnostic": 0.14285714285714285,
+  "rmse": 64.31550748964867,
+  "mae": 49.00888322292437,
+  "theil_u": 1.7651006299888379,
+  "directional_accuracy": 0.2807017543859649,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "economic_sign"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 64.31550748964867,
+  "rmse_3yr": 576.0790469915819,
+  "insample_rmse": 372.77113413872866,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,37 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60",
+  "trial_id": "20260325_dynamic_factor_60_013",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=1, factor_order=1) with housing_starts",
+  "gof_composite": -1.4228647057376218,
+  "gof_insample": -3.7609938941905376,
+  "gof_validation_near": 0.202343995393101,
+  "gof_validation_far": -0.03969475410438972,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 29.0644339857171,
+  "mae": 24.27091499979274,
+  "theil_u": 0.797656004606899,
+  "directional_accuracy": 0.19047619047619047,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.0644339857171,
+  "rmse_3yr": 119.2562939089531,
+  "insample_rmse": 31.772320066548385,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

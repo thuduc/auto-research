@@ -1,0 +1,27 @@
+{
+  "experiment_id": "20260330_gradient_boosting_full20_300",
+  "trial_id": "20260330_gradient_boosting_full20_300_006",
+  "model_class": "Gradient Boosting",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Gradient Boosting n_estimators=200 learning_rate=0.05 max_depth=2 min_samples_leaf=4 lags=[1, 2, 4] with no exogenous variables",
+    "gradient_boosting": {
+      "exogenous": [],
+      "target_lags": [
+        1,
+        2,
+        4
+      ],
+      "n_estimators": 200,
+      "learning_rate": 0.05,
+      "max_depth": 2,
+      "min_samples_leaf": 4,
+      "subsample": 1.0
+    }
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_var_full20_300",
+  "trial_id": "20260331_var_full20_300_022",
+  "model_class": "VAR",
+  "champion_eligible": true,
+  "description": "VAR(1) trend=c with per_capita_income",
+  "gof_composite": -0.2867042280907096,
+  "gof_insample": 0.08541796400415846,
+  "gof_validation_near": -0.4086217939047281,
+  "gof_validation_far": -1.296803016615899,
+  "gof_diagnostic": 0.16666666666666666,
+  "rmse": 51.326379922336095,
+  "mae": 36.21405521184766,
+  "theil_u": 1.408621793904728,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 51.326379922336095,
+  "rmse_3yr": 263.45060847831706,
+  "insample_rmse": 6.103430044351244,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

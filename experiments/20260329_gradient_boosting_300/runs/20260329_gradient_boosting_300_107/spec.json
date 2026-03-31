@@ -1,0 +1,29 @@
+{
+  "experiment_id": "20260329_gradient_boosting_300",
+  "trial_id": "20260329_gradient_boosting_300_107",
+  "model_class": "Gradient Boosting",
+  "champion_eligible": true,
+  "dependency_scope": "challenger",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "Gradient Boosting n_estimators=200 learning_rate=0.1 max_depth=3 min_samples_leaf=1 lags=[1, 4, 8] with mortgage_rate",
+    "gradient_boosting": {
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "target_lags": [
+        1,
+        4,
+        8
+      ],
+      "n_estimators": 200,
+      "learning_rate": 0.1,
+      "max_depth": 3,
+      "min_samples_leaf": 1,
+      "subsample": 1.0
+    }
+  }
+}

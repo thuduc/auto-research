@@ -1,0 +1,61 @@
+{
+  "experiment_id": "20260325_dynamic_factor_60_recovery",
+  "trial_id": "20260325_dynamic_factor_60_recovery_060",
+  "model_class": "Dynamic Factor",
+  "champion_eligible": true,
+  "description": "Dynamic Factor(k_factors=2, factor_order=4) with mortgage_rate, per_capita_income, real_gdp",
+  "gof_composite": -1.1667515696565791e+85,
+  "gof_insample": -1.0466641864215199e+31,
+  "gof_validation_near": -5.2764780116623815e+65,
+  "gof_validation_far": -7.778343797710527e+85,
+  "gof_diagnostic": 0.0,
+  "rmse": 1.9226063110078002e+67,
+  "mae": 2.1054437047658188e+66,
+  "theil_u": 5.2764780116623815e+65,
+  "directional_accuracy": 0.3583959899749373,
+  "n_params": 28,
+  "status": "ok",
+  "diagnostics_passed": [],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "adf",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 1.9226063110078002e+67,
+  "rmse_3yr": 8.922007641211128e+87,
+  "insample_rmse": 6.98487548445638e+31,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": true,
+      "status": "warning",
+      "optimizer_converged": false,
+      "warnings": [
+        "Maximum Likelihood optimization failed to converge. Check mle_retvals"
+      ]
+    },
+    {
+      "attempt": 2,
+      "name": "relaxed_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 200,
+      "scale_inputs": false,
+      "enforce_stationarity": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "relaxed_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": true
+}

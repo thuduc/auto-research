@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260330_svr_full20_300	Support Vector Regression	True	20260330_svr_full20_300_106		0.028233922411275	-0.2688487470432721	0.2366186656250472	0.1308236995098934	27.81555742165292	99.69728513176406	5	146	Support Vector Regression kernel=rbf C=50.0 epsilon=0.1 gamma=0.1 lags=[1, 2, 4] with consumer_confidence

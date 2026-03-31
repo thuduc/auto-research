@@ -1,0 +1,49 @@
+{
+  "experiment_id": "20260325_state_space_60_recovery",
+  "trial_id": "20260325_state_space_60_recovery_018",
+  "model_class": "State-Space",
+  "champion_eligible": true,
+  "description": "State-Space(local linear trend, no_cycle) with mortgage_rate, unemployment_rate",
+  "gof_composite": -0.6187434817673957,
+  "gof_insample": -1.765330892110029,
+  "gof_validation_near": 0.19157938518165418,
+  "gof_validation_far": -0.34061654110356243,
+  "gof_diagnostic": 0.7142857142857143,
+  "rmse": 29.4566673558235,
+  "mae": 19.137506736371083,
+  "theil_u": 0.8084206148183458,
+  "directional_accuracy": 0.518796992481203,
+  "n_params": 5,
+  "status": "ok",
+  "diagnostics_passed": [
+    "ljung_box",
+    "cusum",
+    "adf",
+    "economic_sign",
+    "forecast_plausibility"
+  ],
+  "diagnostics_failed": [
+    "jarque_bera",
+    "arch_lm"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 29.4566673558235,
+  "rmse_3yr": 153.77297963071015,
+  "insample_rmse": 18.454335406992097,
+  "naive_insample_rmse": 6.6734637289322345,
+  "fit_attempts": [
+    {
+      "attempt": 1,
+      "name": "baseline_lbfgs",
+      "method": "lbfgs",
+      "maxiter": 50,
+      "scale_inputs": false,
+      "status": "ok",
+      "optimizer_converged": true,
+      "warnings": []
+    }
+  ],
+  "fit_strategy": "baseline_lbfgs",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

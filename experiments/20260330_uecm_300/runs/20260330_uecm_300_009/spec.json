@@ -1,0 +1,22 @@
+{
+  "experiment_id": "20260330_uecm_300",
+  "trial_id": "20260330_uecm_300_009",
+  "model_class": "UECM / ECM",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "UECM(ar_lags=2, distributed_lags=2) trend=c with mortgage_rate",
+    "uecm": {
+      "exogenous": [
+        "mortgage_rate"
+      ],
+      "ar_lags": 2,
+      "distributed_lags": 2,
+      "trend": "c"
+    }
+  }
+}

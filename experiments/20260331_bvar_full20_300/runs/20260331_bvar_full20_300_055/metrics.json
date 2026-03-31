@@ -1,0 +1,41 @@
+{
+  "experiment_id": "20260331_bvar_full20_300",
+  "trial_id": "20260331_bvar_full20_300_055",
+  "model_class": "BVAR",
+  "champion_eligible": true,
+  "description": "BVAR(2) prior=minnesota lambda=0.1 trend=c with consumer_confidence, personal_consumption",
+  "gof_composite": -1.3811561118870197,
+  "gof_insample": 0.2959862533510508,
+  "gof_validation_near": -1.8018355056445334,
+  "gof_validation_far": -6.014943463901245,
+  "gof_diagnostic": 0.3333333333333333,
+  "rmse": 102.09133087736991,
+  "mae": 69.80642064821213,
+  "theil_u": 2.8018355056445334,
+  "directional_accuracy": 0.18796992481203006,
+  "n_params": 22,
+  "status": "ok",
+  "diagnostics_passed": [
+    "cusum",
+    "adf"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 102.09133087736991,
+  "rmse_3yr": 804.636318672529,
+  "insample_rmse": 4.69821020293145,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

@@ -1,0 +1,2 @@
+rank	experiment_id	model_class	champion_eligible	best_trial_id	best_commit	gof_composite	gof_insample	gof_val_near	gof_val_far	rmse_1yr	rmse_3yr	n_params	n_trials	description
+1	20260325_arimax_garch_60_volaware	ARIMAX-GARCH	True	20260325_arimax_garch_60_volaware_012		-0.5133030482695211	-1.847579809282854	0.2345525467045432	-0.0148449589602233	27.89084122397473	116.405943398295	9	60	ARIMAX-GARCH(1, 1, 0) trend=t GARCH(1,1) dist=normal with mortgage_rate, unemployment_rate, per_capita_income

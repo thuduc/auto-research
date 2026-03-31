@@ -1,0 +1,42 @@
+{
+  "experiment_id": "20260330_ardl_full20_300",
+  "trial_id": "20260330_ardl_full20_300_040",
+  "model_class": "ARDL",
+  "champion_eligible": true,
+  "description": "ARDL(ar_lags=1, distributed_lags=2) trend=ct with treasury_10y",
+  "gof_composite": -307658642589.1706,
+  "gof_insample": 0.08925976219853582,
+  "gof_validation_near": -16182.58828281881,
+  "gof_validation_far": -2051057579502.1934,
+  "gof_diagnostic": 0.2857142857142857,
+  "rmse": 589686.3191418189,
+  "mae": 287534.64661995193,
+  "theil_u": 16183.58828281881,
+  "directional_accuracy": 0.8220551378446115,
+  "n_params": 6,
+  "status": "ok",
+  "diagnostics_passed": [
+    "adf",
+    "economic_sign"
+  ],
+  "diagnostics_failed": [
+    "ljung_box",
+    "jarque_bera",
+    "arch_lm",
+    "cusum",
+    "forecast_plausibility"
+  ],
+  "error_summary": "",
+  "rmse_1yr": 589686.3191418189,
+  "rmse_3yr": 235262825516632.1,
+  "insample_rmse": 6.077791943447189,
+  "naive_insample_rmse": 6.6734637289322345,
+  "gof_volatility_near": NaN,
+  "gof_volatility_far": NaN,
+  "gof_volatility_weighted": NaN,
+  "validation_coverage_90": NaN,
+  "fit_attempts": [],
+  "fit_strategy": "",
+  "fit_scaled": false,
+  "fit_recovered": false
+}

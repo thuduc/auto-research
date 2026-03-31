@@ -1,0 +1,19 @@
+{
+  "experiment_id": "20260330_ets_300",
+  "trial_id": "20260330_ets_300_002",
+  "model_class": "ETS",
+  "champion_eligible": true,
+  "dependency_scope": "econometric",
+  "spec": {
+    "sample_start": "1995-03-31",
+    "target_column": "hpi",
+    "target_date_column": "date",
+    "champion_eligible": true,
+    "description": "ETS(error=add, trend=add, damped_trend=False)",
+    "ets": {
+      "error": "add",
+      "trend": "add",
+      "damped_trend": false
+    }
+  }
+}
